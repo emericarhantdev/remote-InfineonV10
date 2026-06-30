@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KiCad_BOM PCB_Variant="default" KiCad_Version="10.0.4-10.0.4~ubuntu24.04.1" Component_Groups="3" Component_Count="33 (33 SMD/ 0 THT)" Fitted_Components="33 (33 SMD/ 0 THT)" Number_of_PCBs="1" Total_Components="33" Schematic_Source="4x4" Schematic_Revision="" Schematic_Date="2026-06-30_15-26-09" encoding="utf-8">
+	<group Row="1" Description="CAPACITOR, European symbol" Part="C0402-GRM152R61A104KE19D" References="CC_1 CC_2 CC_3 CC_4 CC_5 CC_6 CC_7 CC_8 CC_9 CC_10 CC_11 CC_12 CC_13 CC_14 CC_15 CC_16" Value="" Footprint="C0402-CAPC1005X22N" Quantity_Per_PCB="16" Status=" " Datasheet="" PARTREV="" MANUFACTURER="" SNAPEDA_PN="" MAXIMUM_PACKAGE_HEIGHT="" STANDARD=""/>
+	<group Row="2" Description="" Part="Amphenol-ICC_Minitek-08_10P" References="J2" Value="Amphenol-ICC_Minitek-08_10P" Footprint="Amphenol-ICC_Minitek-08_10P" Quantity_Per_PCB="1" Status=" " Datasheet="" PARTREV="B" MANUFACTURER="Amphenol" SNAPEDA_PN="10144041-10011LF" MAXIMUM_PACKAGE_HEIGHT="1.75 mm" STANDARD="Manufacturer Recommendations"/>
+	<group Row="3" Description="" Part="TLI493D-x4D7_R1103_V3" References="X1 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 X14 X15 X16" Value="" Footprint="TLI493D-x4D7_R7_R1103_V3" Quantity_Per_PCB="16" Status=" " Datasheet="" PARTREV="" MANUFACTURER="" SNAPEDA_PN="" MAXIMUM_PACKAGE_HEIGHT="" STANDARD=""/>
+</KiCad_BOM>

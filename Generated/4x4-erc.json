@@ -1,0 +1,2956 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-30T15:28:40",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/948f5fe9-9b84-4795-bfb2-c024a36f99ad",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [Amphenol-ICC_Minitek-08_10P]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 0.9271
+                            },
+                            "uuid": "4865584b-d288-45c8-9ffe-99079bd66000"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [Amphenol-ICC_Minitek-08_10P]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 0.9271
+                            },
+                            "uuid": "4865584b-d288-45c8-9ffe-99079bd66000"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X5 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 0.74168,
+                                "y": 0.9271
+                            },
+                            "uuid": "06e2e395-0f24-4a45-b550-81007cae16c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.74168,
+                                "y": 0.9271
+                            },
+                            "uuid": "2e1d51f3-8bce-4dfd-8ed2-495dc70de567"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X9 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 0.74168,
+                                "y": 1.2827
+                            },
+                            "uuid": "46bd64a6-061b-4d6a-b30c-0bc1d329153f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X13 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 0.74168,
+                                "y": 1.63576
+                            },
+                            "uuid": "033258d5-3732-406f-b858-9f5260649a66"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.76708,
+                                "y": 1.2827
+                            },
+                            "uuid": "3fffd9cb-1221-4998-af29-2548f9670248"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.76708,
+                                "y": 1.63576
+                            },
+                            "uuid": "034bebf5-b005-47a3-b7dc-7b8cb94a56cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR08 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.7747,
+                                "y": 0.38862
+                            },
+                            "uuid": "6df3c555-1a2c-414b-a73e-3dc90e22087e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 0.7747,
+                                "y": 0.38862
+                            },
+                            "uuid": "7191b827-339d-4bb6-9ec0-0a9d38893c4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X1 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.7747,
+                                "y": 0.4826
+                            },
+                            "uuid": "493e33d5-87b5-468f-a75d-24642d7656dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X1 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.7747,
+                                "y": 0.4826
+                            },
+                            "uuid": "493e33d5-87b5-468f-a75d-24642d7656dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR025 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 0.74422
+                            },
+                            "uuid": "3b7997c0-eae1-4dc3-8d14-572323913728"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 0.74422
+                            },
+                            "uuid": "ed0f5285-1141-4120-a34d-b83b85e268b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_5 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 0.7493
+                            },
+                            "uuid": "5ea5046d-94d6-4fb6-b695-2727fbc322c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X5 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 0.8382
+                            },
+                            "uuid": "e120af19-b1db-46ac-9cc6-1e610db22f97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X5 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 0.8382
+                            },
+                            "uuid": "e120af19-b1db-46ac-9cc6-1e610db22f97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR037 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.09982
+                            },
+                            "uuid": "013185e2-5730-4f02-8403-31319ce9449a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.09982
+                            },
+                            "uuid": "6f81c3d4-6fcd-4a78-b3e1-b4003c24e2f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_9 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.1049
+                            },
+                            "uuid": "2331126e-d1bf-41bd-b680-3d6bb339ae1c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X9 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.1938
+                            },
+                            "uuid": "5f8898c8-895d-49b9-91e6-a39b4d58f4c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X9 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.1938
+                            },
+                            "uuid": "5f8898c8-895d-49b9-91e6-a39b4d58f4c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0076 mm",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.45034
+                            },
+                            "uuid": "01bbd64b-4c7f-41fb-86f7-ad597c73f0cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR049 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.45034
+                            },
+                            "uuid": "886729a6-d37b-4ca5-b37b-8aeaa85358d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_13 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.45796
+                            },
+                            "uuid": "3d3ec598-eb4d-41cc-add2-22d7aa8fa234"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X13 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.54686
+                            },
+                            "uuid": "55a3e14a-8c7a-4065-a9db-87a83536e9bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X13 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.77978,
+                                "y": 1.54686
+                            },
+                            "uuid": "55a3e14a-8c7a-4065-a9db-87a83536e9bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.79248,
+                                "y": 0.9271
+                            },
+                            "uuid": "2f1c8e6e-2405-4c78-8e49-9e35295b595b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.79248,
+                                "y": 0.9271
+                            },
+                            "uuid": "caa0f29a-d1f3-4a49-9cb8-8b9cb28f2611"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.79248,
+                                "y": 1.2827
+                            },
+                            "uuid": "681efbf1-cb06-47d1-90e2-9505545f788f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.79248,
+                                "y": 1.63576
+                            },
+                            "uuid": "e9c68eca-9722-40e6-bf38-1423c7a9457a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_1 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 0.3937
+                            },
+                            "uuid": "def45a12-3e4a-435e-b5b5-836deea6de41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_1 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 0.3937
+                            },
+                            "uuid": "def45a12-3e4a-435e-b5b5-836deea6de41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_5 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.80518,
+                                "y": 0.7493
+                            },
+                            "uuid": "5912b4e0-1c72-47e9-a313-7737a1d9e1e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_5 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.80518,
+                                "y": 0.7493
+                            },
+                            "uuid": "5912b4e0-1c72-47e9-a313-7737a1d9e1e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_9 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.80518,
+                                "y": 1.1049
+                            },
+                            "uuid": "18dee14c-5c0c-446a-aaa6-b427bc421973"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_9 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.80518,
+                                "y": 1.1049
+                            },
+                            "uuid": "18dee14c-5c0c-446a-aaa6-b427bc421973"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_13 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.80518,
+                                "y": 1.45796
+                            },
+                            "uuid": "4d0afee6-f153-4e02-94b1-641090167a24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_13 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.80518,
+                                "y": 1.45796
+                            },
+                            "uuid": "4d0afee6-f153-4e02-94b1-641090167a24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR024 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.81788,
+                                "y": 0.9271
+                            },
+                            "uuid": "417e626d-3bfb-46f7-a425-5ffe3a30a968"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR036 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.81788,
+                                "y": 1.2827
+                            },
+                            "uuid": "111fda20-597d-45b8-8ef5-168b69308f4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.81788,
+                                "y": 1.2827
+                            },
+                            "uuid": "19af9a7c-6f78-4746-9da0-6625b10f2d16"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR048 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.81788,
+                                "y": 1.63576
+                            },
+                            "uuid": "48a9c59f-5004-4c6a-839b-bcbf61aa15d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.81788,
+                                "y": 1.63576
+                            },
+                            "uuid": "9fc44c8a-a167-45e8-ab9b-17faf08db6d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR017 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.85598,
+                                "y": 0.7493
+                            },
+                            "uuid": "eba2666e-2031-454a-932a-ae85170fe90e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR029 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.85598,
+                                "y": 1.1049
+                            },
+                            "uuid": "c4d74541-b73b-4d07-9136-2b7aba333ca8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR041 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.85598,
+                                "y": 1.45796
+                            },
+                            "uuid": "097f11e0-570f-42b0-9525-51c545121cb7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X6 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 0.91948,
+                                "y": 0.9271
+                            },
+                            "uuid": "7b5a7af5-7587-46fb-8d5b-a3d7d97fbfb2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X10 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 0.91948,
+                                "y": 1.2827
+                            },
+                            "uuid": "d481d59a-17e1-4fa5-8451-0d80d3840e0d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X14 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 0.91948,
+                                "y": 1.63576
+                            },
+                            "uuid": "2682af82-dfc3-4878-bd55-60570e5fb30f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.94488,
+                                "y": 0.9271
+                            },
+                            "uuid": "975ba812-6ae2-4095-9283-b5e3427c4dd0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.94488,
+                                "y": 1.2827
+                            },
+                            "uuid": "043a7fe4-3dd7-421a-926d-b4accae44077"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.94488,
+                                "y": 1.63576
+                            },
+                            "uuid": "873a0b2c-74b9-41ba-b5da-f111d34abd40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR07 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 0.38862
+                            },
+                            "uuid": "22527619-1125-403b-9f20-7e12d6b87e3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 0.38862
+                            },
+                            "uuid": "e42e2141-efc0-42ab-98eb-60ce5b3857a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X2 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 0.4826
+                            },
+                            "uuid": "b5607ec7-6bbd-4cbb-b09e-c55aedce9fa2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X2 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 0.4826
+                            },
+                            "uuid": "b5607ec7-6bbd-4cbb-b09e-c55aedce9fa2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR022 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 0.74422
+                            },
+                            "uuid": "656282d7-8073-46cd-bafc-f1ba2df74dcb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 0.74422
+                            },
+                            "uuid": "7f6bbfed-31f1-4073-b6e8-60468c93f51a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_6 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 0.7493
+                            },
+                            "uuid": "d0197961-a2ce-4012-9a85-0421cdc2c942"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X6 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 0.8382
+                            },
+                            "uuid": "f1dd44e1-bd75-4757-aa4d-7853631459c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X6 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 0.8382
+                            },
+                            "uuid": "f1dd44e1-bd75-4757-aa4d-7853631459c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.09982
+                            },
+                            "uuid": "80edce71-65ab-42db-b7cf-d1bc75800657"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR034 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.09982
+                            },
+                            "uuid": "88701289-ad95-45b0-ac4e-bcdeab27c5d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_10 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.1049
+                            },
+                            "uuid": "39483f8e-94e7-4a6f-85cd-d2310ec8e471"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X10 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.1938
+                            },
+                            "uuid": "e088fabf-8d22-4038-8950-05186ba18bc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X10 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.1938
+                            },
+                            "uuid": "e088fabf-8d22-4038-8950-05186ba18bc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0076 mm",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.45034
+                            },
+                            "uuid": "5e151473-5218-4706-8129-e43769cdd551"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR046 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.45034
+                            },
+                            "uuid": "d5cc16c4-598d-48a5-af2c-c85cf1d9e2a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_14 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.45796
+                            },
+                            "uuid": "1d819ca8-5d6c-47c9-94bd-32144c3f4e6e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X14 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.54686
+                            },
+                            "uuid": "84ec2e0b-b8a2-4621-a4fb-27282b2afe9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X14 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 0.95758,
+                                "y": 1.54686
+                            },
+                            "uuid": "84ec2e0b-b8a2-4621-a4fb-27282b2afe9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.97028,
+                                "y": 0.9271
+                            },
+                            "uuid": "41a3b175-5c34-4be2-aec1-3bcb59b4445c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.97028,
+                                "y": 1.2827
+                            },
+                            "uuid": "e0235973-329a-4deb-92bf-f9f8897d8c9d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.97028,
+                                "y": 1.63576
+                            },
+                            "uuid": "202d2f91-22b6-4256-9c89-c911414430a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_2 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.3937
+                            },
+                            "uuid": "bfbaf11e-6514-4ce9-bc5d-a74d797a1dff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_2 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.3937
+                            },
+                            "uuid": "bfbaf11e-6514-4ce9-bc5d-a74d797a1dff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_6 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.98298,
+                                "y": 0.7493
+                            },
+                            "uuid": "8f5bc22a-a566-49de-9dcb-112ea065a0ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_6 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.98298,
+                                "y": 0.7493
+                            },
+                            "uuid": "8f5bc22a-a566-49de-9dcb-112ea065a0ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_10 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.98298,
+                                "y": 1.1049
+                            },
+                            "uuid": "9a86971f-4d14-452c-8db5-f51bbc7df2bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_10 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.98298,
+                                "y": 1.1049
+                            },
+                            "uuid": "9a86971f-4d14-452c-8db5-f51bbc7df2bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_14 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.98298,
+                                "y": 1.45796
+                            },
+                            "uuid": "e602ca4d-21e1-40b1-999a-1118c3ef9aa1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_14 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 0.98298,
+                                "y": 1.45796
+                            },
+                            "uuid": "e602ca4d-21e1-40b1-999a-1118c3ef9aa1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR021 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.99568,
+                                "y": 0.9271
+                            },
+                            "uuid": "a1385e52-3f61-40ec-8039-ef8909c05a84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.99568,
+                                "y": 0.9271
+                            },
+                            "uuid": "e27acd4f-b22a-4d49-922e-79bcbaae25a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR033 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.99568,
+                                "y": 1.2827
+                            },
+                            "uuid": "0bb2a8f9-3b4e-4f08-b2e3-0ae8889d7b94"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.99568,
+                                "y": 1.2827
+                            },
+                            "uuid": "e912c16f-9775-4487-894b-3cb2d4026691"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR045 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.99568,
+                                "y": 1.63576
+                            },
+                            "uuid": "0f05a653-cf74-47d1-9b7c-8f2f2f4f69e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.99568,
+                                "y": 1.63576
+                            },
+                            "uuid": "34ebb2ad-aa54-4ccc-af6a-d3c117a45186"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR020 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.03378,
+                                "y": 0.7493
+                            },
+                            "uuid": "584cf0a5-16d9-4d11-91a3-24f908a18eba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR032 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.03378,
+                                "y": 1.1049
+                            },
+                            "uuid": "8a28d64f-40d5-4563-89f8-d54d083f947f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR044 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.03378,
+                                "y": 1.45796
+                            },
+                            "uuid": "75db2c3d-3cff-42ef-95c9-d0020c6b06c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X7 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 1.09728,
+                                "y": 0.9271
+                            },
+                            "uuid": "7606aeec-f112-43a3-ad43-8b2147bc9239"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X11 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 1.09728,
+                                "y": 1.2827
+                            },
+                            "uuid": "0fd1a5f2-de2b-4487-b697-1960be1e68f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X15 Pin EP [NC, Input, Line]",
+                            "pos": {
+                                "x": 1.09728,
+                                "y": 1.63576
+                            },
+                            "uuid": "f70e5d60-eff5-44f9-81d9-52f8758781f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.12268,
+                                "y": 0.9271
+                            },
+                            "uuid": "e6a32428-37b0-410c-83af-16db916150d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.12268,
+                                "y": 1.2827
+                            },
+                            "uuid": "546aa1af-0f4c-4229-a651-df85eddd13c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.12268,
+                                "y": 1.63576
+                            },
+                            "uuid": "922ed747-e810-45bd-8007-d66401fef2fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR06 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.38862
+                            },
+                            "uuid": "4fe57eab-1afb-48e2-8cb0-dc5ea3cb7700"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.38862
+                            },
+                            "uuid": "bf7669fd-762c-4bda-a5f5-b7e1045207b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X3 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4826
+                            },
+                            "uuid": "e14b57a3-6f24-42b5-8fca-cc3d23e2fcf9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X3 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4826
+                            },
+                            "uuid": "e14b57a3-6f24-42b5-8fca-cc3d23e2fcf9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR019 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 0.74422
+                            },
+                            "uuid": "9de6e6e3-7418-4969-9d8a-938ff2bb76d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 0.74422
+                            },
+                            "uuid": "a8bea056-00d5-4770-b492-0812de53f0ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_7 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 0.7493
+                            },
+                            "uuid": "0e729d9d-cfcc-4510-803d-3edf1dc05fc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X7 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 0.8382
+                            },
+                            "uuid": "3539a1ef-8dfc-4772-b182-0d048c7fb294"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X7 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 0.8382
+                            },
+                            "uuid": "3539a1ef-8dfc-4772-b182-0d048c7fb294"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR031 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.09982
+                            },
+                            "uuid": "a28f0c2b-ddc4-4104-ba0c-605a6cb13ccc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.09982
+                            },
+                            "uuid": "f164d553-f112-463a-b9f2-ec70bada7556"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_11 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.1049
+                            },
+                            "uuid": "46dc3b51-7494-4e96-9ca9-29289084eb7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X11 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.1938
+                            },
+                            "uuid": "9904255a-bda2-4461-8ad1-b7fd377dd216"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X11 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.1938
+                            },
+                            "uuid": "9904255a-bda2-4461-8ad1-b7fd377dd216"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0076 mm",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.45034
+                            },
+                            "uuid": "371040f8-2024-4e22-82fd-857a48b23085"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR043 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.45034
+                            },
+                            "uuid": "649cc550-6bcf-4e5e-9fce-efe7fa37fa86"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_15 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.45796
+                            },
+                            "uuid": "73eed6ba-b497-4a9d-93ef-77f28ee36566"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X15 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.54686
+                            },
+                            "uuid": "1c9c7dad-1ff6-4cb3-b1ea-388bfc8b75a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X15 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.13538,
+                                "y": 1.54686
+                            },
+                            "uuid": "1c9c7dad-1ff6-4cb3-b1ea-388bfc8b75a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.14808,
+                                "y": 0.9271
+                            },
+                            "uuid": "6f3e24c4-ae0c-4f3e-9007-644a6225dde6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.14808,
+                                "y": 1.2827
+                            },
+                            "uuid": "de59a998-6407-49da-a36d-087642ce1afc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.14808,
+                                "y": 1.63576
+                            },
+                            "uuid": "c89b0a17-64e8-4b2a-8325-564b51982292"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_3 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.3937
+                            },
+                            "uuid": "8d708e12-748b-49c8-abca-7ed09a90db50"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_3 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.3937
+                            },
+                            "uuid": "8d708e12-748b-49c8-abca-7ed09a90db50"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_7 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.16078,
+                                "y": 0.7493
+                            },
+                            "uuid": "3f341789-3eaa-47f4-83dc-8839558d386d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_7 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.16078,
+                                "y": 0.7493
+                            },
+                            "uuid": "3f341789-3eaa-47f4-83dc-8839558d386d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_11 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.16078,
+                                "y": 1.1049
+                            },
+                            "uuid": "3c6c09d8-1d58-4c04-b3d2-74384bf074f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_11 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.16078,
+                                "y": 1.1049
+                            },
+                            "uuid": "3c6c09d8-1d58-4c04-b3d2-74384bf074f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_15 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.16078,
+                                "y": 1.45796
+                            },
+                            "uuid": "1ebc249f-67b6-4426-b1ca-e304c7827151"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_15 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.16078,
+                                "y": 1.45796
+                            },
+                            "uuid": "1ebc249f-67b6-4426-b1ca-e304c7827151"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR018 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.17348,
+                                "y": 0.9271
+                            },
+                            "uuid": "2bfa16c6-6811-464e-b4bd-e2cd0a9e0033"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.17348,
+                                "y": 0.9271
+                            },
+                            "uuid": "75b511be-3d95-449b-be32-307892fde9a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR030 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.17348,
+                                "y": 1.2827
+                            },
+                            "uuid": "05dc480b-e505-4562-bb67-f5c6cc26de62"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.17348,
+                                "y": 1.2827
+                            },
+                            "uuid": "5d4406a9-9665-42d7-a91a-bb9fb549b432"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.17348,
+                                "y": 1.63576
+                            },
+                            "uuid": "0469ba4e-1473-4f64-abc3-24d5da5dc2fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR042 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.17348,
+                                "y": 1.63576
+                            },
+                            "uuid": "8d0f1f22-7f4f-47c5-a569-cb04b2cb76a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR023 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.21158,
+                                "y": 0.7493
+                            },
+                            "uuid": "fe51fd4c-e3c5-45ea-8976-4611b13e4eea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR035 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.21158,
+                                "y": 1.1049
+                            },
+                            "uuid": "c20610d6-ed4f-44e5-94cc-37e373accc0a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR047 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.21158,
+                                "y": 1.45796
+                            },
+                            "uuid": "de9c338f-1fb8-4393-bf70-c103581ef44a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X8 Pin 4 [TX, Input, Line]",
+                            "pos": {
+                                "x": 1.22428,
+                                "y": 0.8382
+                            },
+                            "uuid": "dc828bb4-914f-43cd-9c95-7bc7d9ccc688"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X12 Pin 4 [TX, Input, Line]",
+                            "pos": {
+                                "x": 1.22428,
+                                "y": 1.1938
+                            },
+                            "uuid": "cd3a061c-12bd-40af-81d4-7dd6092f4ce0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol X16 Pin 4 [TX, Input, Line]",
+                            "pos": {
+                                "x": 1.22428,
+                                "y": 1.54686
+                            },
+                            "uuid": "e255f8ec-339a-40fe-856f-d684a61baf68"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.30048,
+                                "y": 0.9271
+                            },
+                            "uuid": "1f03756c-b2e7-41b3-8a28-098b43be10c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.30048,
+                                "y": 1.2827
+                            },
+                            "uuid": "7178fc17-5b43-4ea5-8046-b2eb27486e67"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.30048,
+                                "y": 1.63576
+                            },
+                            "uuid": "099ed70e-facf-44c6-85ed-76e079324017"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR05 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 0.38862
+                            },
+                            "uuid": "5b4c90a6-b4b2-4537-8d91-833e1ace3431"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 0.38862
+                            },
+                            "uuid": "fc54e765-8def-4c1f-9a81-5a0500b3c519"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X4 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 0.4826
+                            },
+                            "uuid": "b8d56efb-7463-4f08-a8b0-2acd6e12ce97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X4 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 0.4826
+                            },
+                            "uuid": "b8d56efb-7463-4f08-a8b0-2acd6e12ce97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 0.74422
+                            },
+                            "uuid": "4775ef48-45ac-4d76-bdae-5801cabbd99c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR016 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 0.74422
+                            },
+                            "uuid": "844a4b4b-d83f-4a6a-9313-4719ff156f0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_8 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 0.7493
+                            },
+                            "uuid": "e6451f72-ad58-4be7-a9df-8fa15f0768ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X8 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 0.8382
+                            },
+                            "uuid": "0540e313-7c57-4ca4-b76b-415b15e3b7a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X8 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 0.8382
+                            },
+                            "uuid": "0540e313-7c57-4ca4-b76b-415b15e3b7a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0051 mm",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.09982
+                            },
+                            "uuid": "d2bce16f-27a9-4734-a66d-53ad1db7504e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR028 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.09982
+                            },
+                            "uuid": "fc6d1e6c-44d3-4e18-bb71-59e07a8250e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_12 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.1049
+                            },
+                            "uuid": "947b6042-0e35-4252-a637-2467d9aafad7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X12 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.1938
+                            },
+                            "uuid": "23a55c5f-aa0c-40c1-8451-9646350529de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X12 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.1938
+                            },
+                            "uuid": "23a55c5f-aa0c-40c1-8451-9646350529de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR040 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.45034
+                            },
+                            "uuid": "6bc551b3-cbd9-4ca2-a450-d97595e6de35"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0076 mm",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.45034
+                            },
+                            "uuid": "db74a841-eb05-4045-9017-e45512bee0cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol CC_16 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.45796
+                            },
+                            "uuid": "4103d653-1a59-459c-bcd7-9a6aa340edc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X16 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.54686
+                            },
+                            "uuid": "7f2daef8-2b3f-4ff8-a0a3-146011d8f516"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol X16 [TLI493D-x4D7_R1103_V3]",
+                            "pos": {
+                                "x": 1.31318,
+                                "y": 1.54686
+                            },
+                            "uuid": "7f2daef8-2b3f-4ff8-a0a3-146011d8f516"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.32588,
+                                "y": 0.9271
+                            },
+                            "uuid": "6a6fe05a-12b6-46d1-8b28-159faf388480"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.32588,
+                                "y": 1.2827
+                            },
+                            "uuid": "76e9b418-f48a-4e18-b025-848d6fcc37d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.32588,
+                                "y": 1.63576
+                            },
+                            "uuid": "bea872dd-8f5d-47f7-9911-cf4797c4cbb9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_4 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.3335,
+                                "y": 0.3937
+                            },
+                            "uuid": "94c59faa-2bd1-411d-8ca8-5dfcb98d5d18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_4 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.3335,
+                                "y": 0.3937
+                            },
+                            "uuid": "94c59faa-2bd1-411d-8ca8-5dfcb98d5d18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_8 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.33858,
+                                "y": 0.7493
+                            },
+                            "uuid": "81c327d1-dfee-4f8a-aa2a-6f775c83605a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_8 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.33858,
+                                "y": 0.7493
+                            },
+                            "uuid": "81c327d1-dfee-4f8a-aa2a-6f775c83605a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_12 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.33858,
+                                "y": 1.1049
+                            },
+                            "uuid": "7645a1b0-b1f1-4d53-a409-c3dbc98d0790"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_12 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.33858,
+                                "y": 1.1049
+                            },
+                            "uuid": "7645a1b0-b1f1-4d53-a409-c3dbc98d0790"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_16 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.33858,
+                                "y": 1.45796
+                            },
+                            "uuid": "1763d781-fd09-41f5-b1ce-af7a2a4409df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'XELA-Robotics'",
+                    "items": [
+                        {
+                            "description": "Symbol CC_16 [C0402-GRM152R61A104KE19D]",
+                            "pos": {
+                                "x": 1.33858,
+                                "y": 1.45796
+                            },
+                            "uuid": "1763d781-fd09-41f5-b1ce-af7a2a4409df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR015 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.35128,
+                                "y": 0.9271
+                            },
+                            "uuid": "3793928e-c8df-4d5e-9bfe-a06123746a6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.35128,
+                                "y": 0.9271
+                            },
+                            "uuid": "cb6a84d8-d6b2-43a0-b471-748ec308eab7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR027 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.35128,
+                                "y": 1.2827
+                            },
+                            "uuid": "11c4ccb2-8833-4a95-bf3f-ceb4b9d1add4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.35128,
+                                "y": 1.2827
+                            },
+                            "uuid": "b0ac3947-f65f-4976-baa4-bb6c6989cc3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.35128,
+                                "y": 1.63576
+                            },
+                            "uuid": "2d232177-f678-46e9-8da3-171a0edd0e65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR039 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.35128,
+                                "y": 1.63576
+                            },
+                            "uuid": "b2d818ad-3a44-4024-8a1d-7e78a5aad13d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR026 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.38938,
+                                "y": 0.7493
+                            },
+                            "uuid": "60e1c7dc-519a-476c-8123-14043e64382c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR038 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.38938,
+                                "y": 1.1049
+                            },
+                            "uuid": "c19b4761-1f1d-4cd5-9df6-16fcd20e88f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR050 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.38938,
+                                "y": 1.45796
+                            },
+                            "uuid": "89e0d7e2-70c2-4ea1-b788-f0a0fab15179"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                }
+            ],
+            "file_name": "4x4.kicad_sch"
+        },
+        {
+            "path": "/Sensor Group/",
+            "uuid_path": "/948f5fe9-9b84-4795-bfb2-c024a36f99ad/abb46cef-c82b-497e-96b6-7054965acc72",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X1 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 0.8636,
+                                "y": 0.4826
+                            },
+                            "uuid": "c8a49beb-0b35-460b-b382-fea5bee0190b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X5 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 0.86868,
+                                "y": 0.8382
+                            },
+                            "uuid": "19503fbf-a350-4be1-ab0e-1e39ea28a126"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X9 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 0.86868,
+                                "y": 1.1938
+                            },
+                            "uuid": "d8717334-7aff-4d2a-bf84-d91eb8e9ba12"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X13 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 0.86868,
+                                "y": 1.54686
+                            },
+                            "uuid": "78a900dd-2e73-4b7f-ba4d-8715c3409cc2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X2 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 0.4826
+                            },
+                            "uuid": "6edc48e8-dd5a-4e55-b747-12428103d5e2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X6 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 1.04648,
+                                "y": 0.8382
+                            },
+                            "uuid": "d4925da2-e27e-4c05-bce0-cc2f20da2048"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X10 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 1.04648,
+                                "y": 1.1938
+                            },
+                            "uuid": "d3e43cf4-4161-4373-b352-963241a6c13d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X14 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 1.04648,
+                                "y": 1.54686
+                            },
+                            "uuid": "8df32708-02dd-46b0-adb3-6967fee2562c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X3 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.4826
+                            },
+                            "uuid": "6c7fddac-17ad-4fde-a28d-0e1a7e3d28be"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X7 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 1.22428,
+                                "y": 0.8382
+                            },
+                            "uuid": "957e0be8-854f-4307-aaba-be7060f32e9b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X11 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 1.22428,
+                                "y": 1.1938
+                            },
+                            "uuid": "190a8f9e-132c-4183-9b3d-a8386d922d78"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol X15 Pin 3 [RX, Input, Line]",
+                            "pos": {
+                                "x": 1.22428,
+                                "y": 1.54686
+                            },
+                            "uuid": "4af114c7-c2ad-4201-8f12-064f4ffdaf08"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                }
+            ],
+            "file_name": "sensor_group.kicad_sch"
+        }
+    ],
+    "source": "4x4.kicad_sch"
+}

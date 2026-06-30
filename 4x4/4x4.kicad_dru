@@ -1,0 +1,179 @@
+(version 1)
+# ==================================================================================
+# JLCPCB Custom DRC Rules for KiCad 7+
+# Maximum capabilities / most aggressive specs
+# Last updated: 2026-03-19 based on JLCPCB capabilities page
+#
+# TARGET: Multi-layer (4-6L), 1oz outer / 0.5oz inner copper
+# These are JLCPCB's tightest tolerances. If you want safer margins,
+# uncomment the conservative alternatives where noted.
+#
+# HOW TO USE:
+#   Board Setup > Design Rules > Custom Rules > paste or import this file
+# ==================================================================================
+
+# ================================ TRACE WIDTH & SPACING ============================
+# 4-6 layer, 1oz outer / 0.5oz inner: 3.5 mil (0.09mm) trace/space
+# NOTE: 3.5 mil on 4-layer incurs ~20% surcharge.
+#       Use 0.1mm (4 mil) to avoid extra fees on 4-layer.
+
+(rule "Minimum Trace Width and Spacing (outer layer)"
+	(constraint track_width (min 0.09mm))
+	(constraint clearance (min 0.09mm))
+	(layer outer)
+	(condition "A.Type == 'track'"))
+
+(rule "Minimum Trace Width and Spacing (inner layer)"
+	(constraint track_width (min 0.09mm))
+	(constraint clearance (min 0.09mm))
+	(layer inner)
+	(condition "A.Type == 'track'"))
+
+# --- ALTERNATIVE: 4-layer no-surcharge (uncomment to use) ---
+#(rule "Minimum Trace Width and Spacing (outer layer)"
+#	(constraint track_width (min 0.1mm))
+#	(constraint clearance (min 0.1mm))
+#	(layer outer)
+#	(condition "A.Type == 'track'"))
+#
+#(rule "Minimum Trace Width and Spacing (inner layer)"
+#	(constraint track_width (min 0.1mm))
+#	(constraint clearance (min 0.1mm))
+#	(layer inner)
+#	(condition "A.Type == 'track'"))
+
+# --- ALTERNATIVE: 2-layer 1oz copper (uncomment to use) ---
+#(rule "Minimum Trace Width and Spacing (outer layer)"
+#	(constraint track_width (min 0.127mm))
+#	(constraint clearance (min 0.127mm))
+#	(layer outer)
+#	(condition "A.Type == 'track'"))
+
+# --- ALTERNATIVE: 2oz copper (uncomment to use) ---
+#(rule "Minimum Trace Width and Spacing (outer layer)"
+#	(constraint track_width (min 0.2mm))
+#	(constraint clearance (min 0.2mm))
+#	(layer outer)
+#	(condition "A.Type == 'track'"))
+
+# ================================ DRILL / HOLE SIZE ================================
+# General drill hole range (must come before via rule to not override it)
+(rule "Drill Hole Size (mechanical)"
+	(constraint hole_size (min 0.15mm) (max 6.3mm)))
+
+# ================================ VIA HOLE / DIAMETER ==============================
+# Multi-layer most aggressive: 0.15mm hole / 0.25mm diameter
+# JLCPCB says "Via diameter should be 0.1mm (0.15mm preferred) larger than hole"
+# 0.15mm hole + 0.1mm = 0.25mm diameter (absolute min)
+# Blind/buried vias NOT supported at JLCPCB standard process.
+
+(rule "Minimum Via Diameter and Hole Size"
+	(constraint hole_size (min 0.15mm))
+	(constraint via_diameter (min 0.25mm))
+	(constraint disallow buried_via)
+	(condition "A.Type == 'via'"))
+
+# --- ALTERNATIVE: 4-layer standard, no extra cost (uncomment to use) ---
+#(rule "Minimum Via Diameter and Hole Size"
+#	(constraint hole_size (min 0.3mm))
+#	(constraint via_diameter (min 0.45mm))
+#	(constraint disallow buried_via)
+#	(condition "A.Type == 'via'"))
+
+# --- ALTERNATIVE: 2-layer standard (uncomment to use) ---
+#(rule "Minimum Via Diameter and Hole Size"
+#	(constraint hole_size (min 0.3mm))
+#	(constraint via_diameter (min 0.5mm))
+#	(constraint disallow buried_via)
+#	(condition "A.Type == 'via'"))
+
+# ================================ PTH / NPTH / PAD HOLES ==========================
+
+(rule "PTH Hole Size"
+	(constraint hole_size (min 0.2mm) (max 6.35mm))
+	(condition "A.Type != 'Via' && A.isPlated()"))
+
+(rule "Minimum Non-plated Hole Size"
+	(constraint hole_size (min 0.5mm))
+	(condition "A.Type == 'pad' && !A.isPlated()"))
+
+(rule "Pad Size (PTH annular ring)"
+	(constraint annular_width (min 0.25mm))
+	(condition "A.Type == 'Pad' && A.isPlated()"))
+
+(rule "Minimum Castellated Hole Size"
+	(constraint hole_size (min 0.6mm))
+	(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'"))
+
+(rule "Min. Plated Slot Width"
+	(constraint hole_size (min 0.5mm))
+	(condition "(A.Hole_Size_X != A.Hole_Size_Y) && A.isPlated()"))
+
+(rule "Min. Non-Plated Slot Width"
+	(constraint hole_size (min 1.0mm))
+	(condition "(A.Hole_Size_X != A.Hole_Size_Y) && !A.isPlated()"))
+
+# ================================ CLEARANCES =======================================
+
+(rule "Hole to Hole Clearance (different nets)"
+	(constraint hole_to_hole (min 0.5mm))
+	(condition "A.Net != B.Net"))
+
+(rule "Via to Track Clearance"
+	(constraint hole_clearance (min 0.254mm))
+	(condition "A.Type == 'via' && B.Type == 'track'"))
+
+(rule "Via to Via Clearance (same net)"
+	(constraint hole_to_hole (min 0.254mm))
+	(condition "A.Type == 'via' && B.Type == A.Type && A.Net == B.Net"))
+
+(rule "Pad to Pad Clearance (with hole, different nets)"
+	(constraint hole_to_hole (min 0.5mm))
+	(condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
+
+(rule "Pad to Pad Clearance (without hole, different nets)"
+	(constraint clearance (min 0.127mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+
+(rule "NPTH to Track Clearance"
+	(constraint hole_clearance (min 0.254mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track'"))
+
+(rule "NPTH with Copper Around"
+	(constraint hole_clearance (min 0.20mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type != 'track'"))
+
+(rule "PTH to Track Clearance"
+	(constraint hole_clearance (min 0.33mm))
+	(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
+
+(rule "Pad to Track Clearance"
+	(constraint clearance (min 0.2mm))
+	(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
+
+# ================================ BOARD OUTLINE ====================================
+
+(rule "Trace to Board Edge"
+	(constraint edge_clearance (min 0.3mm))
+	(condition "A.Type == 'track'"))
+
+(rule "Pad to Board Edge"
+	(constraint edge_clearance (min 0.3mm))
+	(condition "A.Type == 'pad'"))
+
+# --- ALTERNATIVE: V-Score edges need wider clearance (uncomment to use) ---
+#(rule "Trace to V-Cut"
+#	(constraint edge_clearance (min 0.4mm))
+#	(condition "A.Type == 'track'"))
+
+# ================================ SILKSCREEN =======================================
+
+(rule "Minimum Silkscreen Text"
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 1.0mm))
+	(layer "?.Silkscreen"))
+
+(rule "Pad to Silkscreen Clearance"
+	(constraint silk_clearance (min 0.15mm))
+	(layer outer)
+	(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))

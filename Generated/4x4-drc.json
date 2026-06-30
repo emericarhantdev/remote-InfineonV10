@@ -1,0 +1,4866 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-30T15:28:38",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "4x4.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [VDD] of J2 on F.Cu",
+                    "pos": {
+                        "x": 138.11,
+                        "y": 94.11
+                    },
+                    "uuid": "5a1cab19-35fc-454e-944c-0d4393ecc593"
+                },
+                {
+                    "description": "Pad 2 [/Sensor Group/TX4] of J2 on F.Cu",
+                    "pos": {
+                        "x": 137.31,
+                        "y": 94.11
+                    },
+                    "uuid": "8816eaa4-044b-4ad5-b735-4832ffa58600"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [/Sensor Group/TX4] of J2 on F.Cu",
+                    "pos": {
+                        "x": 137.31,
+                        "y": 94.11
+                    },
+                    "uuid": "8816eaa4-044b-4ad5-b735-4832ffa58600"
+                },
+                {
+                    "description": "Pad 3 [/Sensor Group/RX4] of J2 on F.Cu",
+                    "pos": {
+                        "x": 136.51,
+                        "y": 94.11
+                    },
+                    "uuid": "e7329446-3497-4d0f-9e29-da812842cbb4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [/Sensor Group/RX4] of J2 on F.Cu",
+                    "pos": {
+                        "x": 136.51,
+                        "y": 94.11
+                    },
+                    "uuid": "e7329446-3497-4d0f-9e29-da812842cbb4"
+                },
+                {
+                    "description": "Pad 4 [/Sensor Group/TX3] of J2 on F.Cu",
+                    "pos": {
+                        "x": 135.71,
+                        "y": 94.11
+                    },
+                    "uuid": "24f6afe4-e691-4794-85ee-3b5770b696dd"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [/Sensor Group/TX3] of J2 on F.Cu",
+                    "pos": {
+                        "x": 135.71,
+                        "y": 94.11
+                    },
+                    "uuid": "24f6afe4-e691-4794-85ee-3b5770b696dd"
+                },
+                {
+                    "description": "Pad 5 [/Sensor Group/RX3] of J2 on F.Cu",
+                    "pos": {
+                        "x": 134.91,
+                        "y": 94.11
+                    },
+                    "uuid": "07845444-9112-4f67-a6da-044efcf61b52"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/Sensor Group/RX4] on F.Cu, length 1.6650 mm",
+                    "pos": {
+                        "x": 138.558794,
+                        "y": 93.4438
+                    },
+                    "uuid": "e32dc6af-1de2-493a-8561-4fd8d13f2bb3"
+                },
+                {
+                    "description": "Pad 1 [VDD] of J2 on F.Cu",
+                    "pos": {
+                        "x": 138.11,
+                        "y": 94.11
+                    },
+                    "uuid": "5a1cab19-35fc-454e-944c-0d4393ecc593"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [/Sensor Group/RX3] of J2 on F.Cu",
+                    "pos": {
+                        "x": 134.91,
+                        "y": 94.11
+                    },
+                    "uuid": "07845444-9112-4f67-a6da-044efcf61b52"
+                },
+                {
+                    "description": "Pad 6 [/Sensor Group/TX2] of J2 on F.Cu",
+                    "pos": {
+                        "x": 134.11,
+                        "y": 94.11
+                    },
+                    "uuid": "5dde4c45-ce85-4a06-92cb-246fcb572fe6"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/Sensor Group/RX4] on F.Cu, length 1.6650 mm",
+                    "pos": {
+                        "x": 138.558794,
+                        "y": 93.4438
+                    },
+                    "uuid": "e32dc6af-1de2-493a-8561-4fd8d13f2bb3"
+                },
+                {
+                    "description": "Pad 2 [/Sensor Group/TX4] of J2 on F.Cu",
+                    "pos": {
+                        "x": 137.31,
+                        "y": 94.11
+                    },
+                    "uuid": "8816eaa4-044b-4ad5-b735-4832ffa58600"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 6 [/Sensor Group/TX2] of J2 on F.Cu",
+                    "pos": {
+                        "x": 134.11,
+                        "y": 94.11
+                    },
+                    "uuid": "5dde4c45-ce85-4a06-92cb-246fcb572fe6"
+                },
+                {
+                    "description": "Pad 7 [/Sensor Group/RX2] of J2 on F.Cu",
+                    "pos": {
+                        "x": 133.31,
+                        "y": 94.11
+                    },
+                    "uuid": "9c4c0455-0401-49ba-a449-01de340f1d34"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 7 [/Sensor Group/RX2] of J2 on F.Cu",
+                    "pos": {
+                        "x": 133.31,
+                        "y": 94.11
+                    },
+                    "uuid": "9c4c0455-0401-49ba-a449-01de340f1d34"
+                },
+                {
+                    "description": "Pad 8 [/Sensor Group/TX1] of J2 on F.Cu",
+                    "pos": {
+                        "x": 132.51,
+                        "y": 94.11
+                    },
+                    "uuid": "180feedf-6782-4289-808c-e263940738da"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 8 [/Sensor Group/TX1] of J2 on F.Cu",
+                    "pos": {
+                        "x": 132.51,
+                        "y": 94.11
+                    },
+                    "uuid": "180feedf-6782-4289-808c-e263940738da"
+                },
+                {
+                    "description": "Pad 9 [/Sensor Group/RX1] of J2 on F.Cu",
+                    "pos": {
+                        "x": 131.71,
+                        "y": 94.11
+                    },
+                    "uuid": "680ca782-a47e-4199-9c9b-0d118b209bbf"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/Sensor Group/RX3] on F.Cu, length 3.4896 mm",
+                    "pos": {
+                        "x": 138.6592,
+                        "y": 93.2014
+                    },
+                    "uuid": "1930071d-33d7-4e31-869c-a7f9a9177ae1"
+                },
+                {
+                    "description": "Pad S1 [GND] of J2 on F.Cu",
+                    "pos": {
+                        "x": 139.41,
+                        "y": 92.26
+                    },
+                    "uuid": "be44a5a8-daad-4828-b012-313b131c305b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 9 [/Sensor Group/RX1] of J2 on F.Cu",
+                    "pos": {
+                        "x": 131.71,
+                        "y": 94.11
+                    },
+                    "uuid": "680ca782-a47e-4199-9c9b-0d118b209bbf"
+                },
+                {
+                    "description": "Pad 10 [GND] of J2 on F.Cu",
+                    "pos": {
+                        "x": 130.91,
+                        "y": 94.11
+                    },
+                    "uuid": "c8500477-68e8-46bb-bc6c-9da0a8fde284"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/Sensor Group/RX3] on F.Cu, length 0.3609 mm",
+                    "pos": {
+                        "x": 138.6592,
+                        "y": 93.2014
+                    },
+                    "uuid": "cd0bdb3f-f246-42b1-bdb8-1593ea478f9b"
+                },
+                {
+                    "description": "Pad S1 [GND] of J2 on F.Cu",
+                    "pos": {
+                        "x": 139.41,
+                        "y": 92.26
+                    },
+                    "uuid": "be44a5a8-daad-4828-b012-313b131c305b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X2 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 100.5
+                    },
+                    "uuid": "60788ed2-eda7-4aa5-9d5d-27a3bb1ef3a1"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X2 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 100.48
+                    },
+                    "uuid": "26c90bbe-ceb2-4af6-8c89-3385f0e4b3b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X2 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 100.5
+                    },
+                    "uuid": "60788ed2-eda7-4aa5-9d5d-27a3bb1ef3a1"
+                },
+                {
+                    "description": "Pad 4 [Net-(X1-RX)] of X2 on F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 100.48
+                    },
+                    "uuid": "fae4ba71-47d3-497c-aa84-104251a6071a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X2 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 100.5
+                    },
+                    "uuid": "60788ed2-eda7-4aa5-9d5d-27a3bb1ef3a1"
+                },
+                {
+                    "description": "Pad 5 [GND] of X2 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 100.48
+                    },
+                    "uuid": "045bd62b-722b-4bb1-a30f-1346c4ae558c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X2 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 100.5
+                    },
+                    "uuid": "60788ed2-eda7-4aa5-9d5d-27a3bb1ef3a1"
+                },
+                {
+                    "description": "Pad 3 [Net-(X2-RX)] of X2 on F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 102.02
+                    },
+                    "uuid": "0e57e26a-f35c-4dbe-afa8-98f3ad69418d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X2 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 100.5
+                    },
+                    "uuid": "60788ed2-eda7-4aa5-9d5d-27a3bb1ef3a1"
+                },
+                {
+                    "description": "Pad 1 [GND] of X2 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 102.02
+                    },
+                    "uuid": "21f689cf-a9fc-4af8-a679-58d2f8bddc22"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X2 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 100.5
+                    },
+                    "uuid": "60788ed2-eda7-4aa5-9d5d-27a3bb1ef3a1"
+                },
+                {
+                    "description": "Pad 2 [GND] of X2 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 102.02
+                    },
+                    "uuid": "38e7b643-80bd-41ae-b9be-975b81c89f77"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X1 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 95.8
+                    },
+                    "uuid": "ff11d31f-0b6f-4a45-8ad1-88ed4996e5d1"
+                },
+                {
+                    "description": "Pad 5 [GND] of X1 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 95.78
+                    },
+                    "uuid": "4ac77b79-e691-48ca-9211-31439a3cd411"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X1 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 95.8
+                    },
+                    "uuid": "ff11d31f-0b6f-4a45-8ad1-88ed4996e5d1"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X1 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 95.78
+                    },
+                    "uuid": "c619ad18-88c2-4ce9-8563-2c15d67bca7a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X1 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 95.8
+                    },
+                    "uuid": "ff11d31f-0b6f-4a45-8ad1-88ed4996e5d1"
+                },
+                {
+                    "description": "Pad 4 [/Sensor Group/RX1] of X1 on F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 95.78
+                    },
+                    "uuid": "1d30ccbf-76d1-4fc7-ab0e-44b891d4d04d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X1 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 95.8
+                    },
+                    "uuid": "ff11d31f-0b6f-4a45-8ad1-88ed4996e5d1"
+                },
+                {
+                    "description": "Pad 3 [Net-(X1-RX)] of X1 on F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 97.32
+                    },
+                    "uuid": "f6e42109-dfe7-4b5d-a09a-a3e2882bbbd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X1 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 95.8
+                    },
+                    "uuid": "ff11d31f-0b6f-4a45-8ad1-88ed4996e5d1"
+                },
+                {
+                    "description": "Pad 1 [GND] of X1 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 97.32
+                    },
+                    "uuid": "efcf3f28-d8b3-4281-aaea-e7c8a1778334"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X1 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 95.8
+                    },
+                    "uuid": "ff11d31f-0b6f-4a45-8ad1-88ed4996e5d1"
+                },
+                {
+                    "description": "Pad 2 [GND] of X1 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 97.32
+                    },
+                    "uuid": "3bea8c4a-9f05-4ac4-98cd-ae2d38402c47"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X5 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 95.8
+                    },
+                    "uuid": "22abdb76-2d67-43e3-bd76-8bb2d697ca37"
+                },
+                {
+                    "description": "Pad 4 [/Sensor Group/RX2] of X5 on F.Cu",
+                    "pos": {
+                        "x": 132.65,
+                        "y": 95.78
+                    },
+                    "uuid": "842c5c7d-ae83-4460-a4da-9a50037e6e40"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X5 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 95.8
+                    },
+                    "uuid": "22abdb76-2d67-43e3-bd76-8bb2d697ca37"
+                },
+                {
+                    "description": "Pad 5 [GND] of X5 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 95.78
+                    },
+                    "uuid": "f5c2c76e-353c-4d81-8f34-8097d6c47ed4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X5 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 95.8
+                    },
+                    "uuid": "22abdb76-2d67-43e3-bd76-8bb2d697ca37"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X5 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 95.78
+                    },
+                    "uuid": "23f02b08-c3de-4933-a2a9-6aa3962bdb3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X5 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 95.8
+                    },
+                    "uuid": "22abdb76-2d67-43e3-bd76-8bb2d697ca37"
+                },
+                {
+                    "description": "Pad 3 [Net-(X5-RX)] of X5 on F.Cu",
+                    "pos": {
+                        "x": 132.65,
+                        "y": 97.32
+                    },
+                    "uuid": "c40b62be-5416-4ab6-ace9-8a9aede12ccf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X5 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 95.8
+                    },
+                    "uuid": "22abdb76-2d67-43e3-bd76-8bb2d697ca37"
+                },
+                {
+                    "description": "Pad 2 [GND] of X5 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 97.32
+                    },
+                    "uuid": "d3ae26a5-9e39-4815-84fb-10471b64a7fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X5 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 95.8
+                    },
+                    "uuid": "22abdb76-2d67-43e3-bd76-8bb2d697ca37"
+                },
+                {
+                    "description": "Pad 1 [GND] of X5 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 97.32
+                    },
+                    "uuid": "f4c910eb-f53e-4413-b747-9abb42bf9e35"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X6 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 100.5
+                    },
+                    "uuid": "487bfd66-72f4-4fe3-a1a1-42d37c97fdbb"
+                },
+                {
+                    "description": "Pad 4 [Net-(X5-RX)] of X6 on F.Cu",
+                    "pos": {
+                        "x": 132.65,
+                        "y": 100.48
+                    },
+                    "uuid": "b6dedd89-8af7-4ad7-8837-6581c35dee95"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X6 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 100.5
+                    },
+                    "uuid": "487bfd66-72f4-4fe3-a1a1-42d37c97fdbb"
+                },
+                {
+                    "description": "Pad 5 [GND] of X6 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 100.48
+                    },
+                    "uuid": "be8167ce-a03c-4cce-81b8-4ec0ccad3fc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X6 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 100.5
+                    },
+                    "uuid": "487bfd66-72f4-4fe3-a1a1-42d37c97fdbb"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X6 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 100.48
+                    },
+                    "uuid": "b1ecf2b2-83b3-43f5-9768-b7060706f1da"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X6 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 100.5
+                    },
+                    "uuid": "487bfd66-72f4-4fe3-a1a1-42d37c97fdbb"
+                },
+                {
+                    "description": "Pad 3 [Net-(X6-RX)] of X6 on F.Cu",
+                    "pos": {
+                        "x": 132.65,
+                        "y": 102.02
+                    },
+                    "uuid": "7d60f54d-716e-4a9e-a41a-62bbe9207a16"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X6 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 100.5
+                    },
+                    "uuid": "487bfd66-72f4-4fe3-a1a1-42d37c97fdbb"
+                },
+                {
+                    "description": "Pad 1 [GND] of X6 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 102.02
+                    },
+                    "uuid": "86d96e46-5edd-40b5-a8b0-57f0aea8f332"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X6 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 100.5
+                    },
+                    "uuid": "487bfd66-72f4-4fe3-a1a1-42d37c97fdbb"
+                },
+                {
+                    "description": "Pad 2 [GND] of X6 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 102.02
+                    },
+                    "uuid": "2ad0f337-79d4-4496-a040-028677ec35d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X3' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.326,
+                        "y": 104.54
+                    },
+                    "uuid": "2cbd6b06-97af-4579-b0f5-c8eb294bfef1"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X3 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 105.18
+                    },
+                    "uuid": "68826656-8ff9-4a58-8317-5c2d011e8bcd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X3' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.326,
+                        "y": 104.54
+                    },
+                    "uuid": "2cbd6b06-97af-4579-b0f5-c8eb294bfef1"
+                },
+                {
+                    "description": "Pad 5 [GND] of X3 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 105.18
+                    },
+                    "uuid": "f52934df-ddf6-4cd3-8c47-c56755545688"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X4' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.326,
+                        "y": 109.24
+                    },
+                    "uuid": "96494105-9ee7-46da-909f-9288397486ec"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X4 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 109.88
+                    },
+                    "uuid": "a74a07b9-fc4f-400c-b6bb-cbf7f60d7484"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X4 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 109.9
+                    },
+                    "uuid": "6b593274-19b3-4317-a188-612c825bfac5"
+                },
+                {
+                    "description": "Pad 4 [Net-(X3-RX)] of X4 on F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 109.88
+                    },
+                    "uuid": "631b701e-13b8-4583-b382-f848a6eec6f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X4 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 109.9
+                    },
+                    "uuid": "6b593274-19b3-4317-a188-612c825bfac5"
+                },
+                {
+                    "description": "Pad 5 [GND] of X4 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 109.88
+                    },
+                    "uuid": "f49901dd-d237-4879-88d7-71b21304bbe3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X4 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 109.9
+                    },
+                    "uuid": "6b593274-19b3-4317-a188-612c825bfac5"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X4 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 109.88
+                    },
+                    "uuid": "a74a07b9-fc4f-400c-b6bb-cbf7f60d7484"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 105.2
+                    },
+                    "uuid": "9732c0b3-2c9a-4bd9-adff-4c65d15eeda1"
+                },
+                {
+                    "description": "Pad 4 [Net-(X2-RX)] of X3 on F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 105.18
+                    },
+                    "uuid": "b6f1c260-bd64-4458-8e40-abbe48210cbd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 105.2
+                    },
+                    "uuid": "9732c0b3-2c9a-4bd9-adff-4c65d15eeda1"
+                },
+                {
+                    "description": "Pad 5 [GND] of X3 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 105.18
+                    },
+                    "uuid": "f52934df-ddf6-4cd3-8c47-c56755545688"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 105.2
+                    },
+                    "uuid": "9732c0b3-2c9a-4bd9-adff-4c65d15eeda1"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X3 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 105.18
+                    },
+                    "uuid": "68826656-8ff9-4a58-8317-5c2d011e8bcd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 105.2
+                    },
+                    "uuid": "9732c0b3-2c9a-4bd9-adff-4c65d15eeda1"
+                },
+                {
+                    "description": "Pad 3 [Net-(X3-RX)] of X3 on F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 106.72
+                    },
+                    "uuid": "e9440f4a-d37b-4a54-998d-fed8c807c9cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 105.2
+                    },
+                    "uuid": "9732c0b3-2c9a-4bd9-adff-4c65d15eeda1"
+                },
+                {
+                    "description": "Pad 1 [GND] of X3 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 106.72
+                    },
+                    "uuid": "d2536a64-e511-4501-a5d6-c9b84252fba6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 105.2
+                    },
+                    "uuid": "9732c0b3-2c9a-4bd9-adff-4c65d15eeda1"
+                },
+                {
+                    "description": "Pad 2 [GND] of X3 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 106.72
+                    },
+                    "uuid": "95ce2316-98c0-4b1f-8778-2dbd1e22d74a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X7",
+                    "pos": {
+                        "x": 132.026,
+                        "y": 104.54
+                    },
+                    "uuid": "9eb2f0a8-00b9-45f0-a71a-5c4b2393f156"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X7 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 105.18
+                    },
+                    "uuid": "40dfb708-aaf8-4e22-8d1c-bdbd30a41fdb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X7",
+                    "pos": {
+                        "x": 132.026,
+                        "y": 104.54
+                    },
+                    "uuid": "9eb2f0a8-00b9-45f0-a71a-5c4b2393f156"
+                },
+                {
+                    "description": "Pad 5 [GND] of X7 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 105.18
+                    },
+                    "uuid": "10f04f1b-3646-450f-a64d-998cfb7eafd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X7 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 105.2
+                    },
+                    "uuid": "8e39ff71-3029-407d-89f2-8114eca4ee08"
+                },
+                {
+                    "description": "Pad 4 [Net-(X6-RX)] of X7 on F.Cu",
+                    "pos": {
+                        "x": 132.65,
+                        "y": 105.18
+                    },
+                    "uuid": "2fad0aef-aa7d-490c-bd2b-709b28563d4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X7 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 105.2
+                    },
+                    "uuid": "8e39ff71-3029-407d-89f2-8114eca4ee08"
+                },
+                {
+                    "description": "Pad 5 [GND] of X7 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 105.18
+                    },
+                    "uuid": "10f04f1b-3646-450f-a64d-998cfb7eafd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X7 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 105.2
+                    },
+                    "uuid": "8e39ff71-3029-407d-89f2-8114eca4ee08"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X7 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 105.18
+                    },
+                    "uuid": "40dfb708-aaf8-4e22-8d1c-bdbd30a41fdb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X7 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 105.2
+                    },
+                    "uuid": "8e39ff71-3029-407d-89f2-8114eca4ee08"
+                },
+                {
+                    "description": "Pad 3 [Net-(X7-RX)] of X7 on F.Cu",
+                    "pos": {
+                        "x": 132.65,
+                        "y": 106.72
+                    },
+                    "uuid": "91735bcc-680e-46ea-898c-c7aaf9467261"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X7 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 105.2
+                    },
+                    "uuid": "8e39ff71-3029-407d-89f2-8114eca4ee08"
+                },
+                {
+                    "description": "Pad 1 [GND] of X7 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 106.72
+                    },
+                    "uuid": "e27bf38f-6e7c-409a-af47-3ab5ddf4027c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X7 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 105.2
+                    },
+                    "uuid": "8e39ff71-3029-407d-89f2-8114eca4ee08"
+                },
+                {
+                    "description": "Pad 2 [GND] of X7 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 106.72
+                    },
+                    "uuid": "6ae12e13-5202-4080-91f4-7e30cfad7c20"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X4 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 109.9
+                    },
+                    "uuid": "6b593274-19b3-4317-a188-612c825bfac5"
+                },
+                {
+                    "description": "Pad 3 [/Sensor Group/TX1] of X4 on F.Cu",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 111.42
+                    },
+                    "uuid": "b8d7caad-a346-424b-9b0f-2bb2195264dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X4 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 109.9
+                    },
+                    "uuid": "6b593274-19b3-4317-a188-612c825bfac5"
+                },
+                {
+                    "description": "Pad 1 [GND] of X4 on F.Cu",
+                    "pos": {
+                        "x": 126.95,
+                        "y": 111.42
+                    },
+                    "uuid": "48c62191-5f48-461a-a0d7-e8e193b1e6a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X4 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 109.9
+                    },
+                    "uuid": "6b593274-19b3-4317-a188-612c825bfac5"
+                },
+                {
+                    "description": "Pad 2 [GND] of X4 on F.Cu",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 111.42
+                    },
+                    "uuid": "ccd6f10e-d85d-41ce-bd3e-0bbdd35b9614"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X8",
+                    "pos": {
+                        "x": 132.026,
+                        "y": 109.24
+                    },
+                    "uuid": "b9bf8171-2dbd-4658-a2cd-308a719b95fc"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X8 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 109.88
+                    },
+                    "uuid": "3b2fdced-fbd0-4264-8d80-3fd7a209a3e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X8",
+                    "pos": {
+                        "x": 132.026,
+                        "y": 109.24
+                    },
+                    "uuid": "b9bf8171-2dbd-4658-a2cd-308a719b95fc"
+                },
+                {
+                    "description": "Pad 5 [GND] of X8 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 109.88
+                    },
+                    "uuid": "22602c11-7cf0-4bc8-befb-96984e579126"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X8 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 109.9
+                    },
+                    "uuid": "1d205e8e-794b-4e21-a417-80de73bb9a2f"
+                },
+                {
+                    "description": "Pad 4 [Net-(X7-RX)] of X8 on F.Cu",
+                    "pos": {
+                        "x": 132.65,
+                        "y": 109.88
+                    },
+                    "uuid": "1926de1b-011f-417c-979c-a4122cd9a575"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X8 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 109.9
+                    },
+                    "uuid": "1d205e8e-794b-4e21-a417-80de73bb9a2f"
+                },
+                {
+                    "description": "Pad 5 [GND] of X8 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 109.88
+                    },
+                    "uuid": "22602c11-7cf0-4bc8-befb-96984e579126"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X8 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 109.9
+                    },
+                    "uuid": "1d205e8e-794b-4e21-a417-80de73bb9a2f"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X8 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 109.88
+                    },
+                    "uuid": "3b2fdced-fbd0-4264-8d80-3fd7a209a3e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X8 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 109.9
+                    },
+                    "uuid": "1d205e8e-794b-4e21-a417-80de73bb9a2f"
+                },
+                {
+                    "description": "Pad 3 [/Sensor Group/TX2] of X8 on F.Cu",
+                    "pos": {
+                        "x": 132.65,
+                        "y": 111.42
+                    },
+                    "uuid": "b6f85f52-79cb-4dd5-b0dd-34909effdd2d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X8 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 109.9
+                    },
+                    "uuid": "1d205e8e-794b-4e21-a417-80de73bb9a2f"
+                },
+                {
+                    "description": "Pad 1 [GND] of X8 on F.Cu",
+                    "pos": {
+                        "x": 131.65,
+                        "y": 111.42
+                    },
+                    "uuid": "e10d8b47-ed5c-44d1-8b63-cb5667949267"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X8 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 109.9
+                    },
+                    "uuid": "1d205e8e-794b-4e21-a417-80de73bb9a2f"
+                },
+                {
+                    "description": "Pad 2 [GND] of X8 on F.Cu",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 111.42
+                    },
+                    "uuid": "d320d047-c65d-4c02-be3c-9477142f09ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X13 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 95.8
+                    },
+                    "uuid": "6302d684-5f70-468d-89b4-76d3f545b846"
+                },
+                {
+                    "description": "Pad 4 [/Sensor Group/RX4] of X13 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 95.78
+                    },
+                    "uuid": "cba183ab-17b0-4c56-a591-be6b12e2aecb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X13 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 95.8
+                    },
+                    "uuid": "6302d684-5f70-468d-89b4-76d3f545b846"
+                },
+                {
+                    "description": "Pad 5 [GND] of X13 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 95.78
+                    },
+                    "uuid": "85bf01dd-391c-4f41-a165-140ff5b90449"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X13 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 95.8
+                    },
+                    "uuid": "6302d684-5f70-468d-89b4-76d3f545b846"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X13 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 95.78
+                    },
+                    "uuid": "f2c0f0e6-fef8-4eb3-8d4c-4750c6d7dc13"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X13 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 95.8
+                    },
+                    "uuid": "6302d684-5f70-468d-89b4-76d3f545b846"
+                },
+                {
+                    "description": "Pad 3 [Net-(X13-RX)] of X13 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 97.32
+                    },
+                    "uuid": "1c437be0-54f4-4ccd-988d-a16fceebcd5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X13 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 95.8
+                    },
+                    "uuid": "6302d684-5f70-468d-89b4-76d3f545b846"
+                },
+                {
+                    "description": "Pad 1 [GND] of X13 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 97.32
+                    },
+                    "uuid": "42699d37-dda9-4c75-848a-b296b8cde759"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X13 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 95.8
+                    },
+                    "uuid": "6302d684-5f70-468d-89b4-76d3f545b846"
+                },
+                {
+                    "description": "Pad 2 [GND] of X13 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 97.32
+                    },
+                    "uuid": "9b36d66a-63e7-416c-9536-1218696d0951"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X9 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 95.8
+                    },
+                    "uuid": "fe15455a-c441-49d3-b6a8-db6583efb9ac"
+                },
+                {
+                    "description": "Pad 4 [/Sensor Group/RX3] of X9 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 95.78
+                    },
+                    "uuid": "135c825a-57cf-4963-afdf-39d1a62ffc4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X9 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 95.8
+                    },
+                    "uuid": "fe15455a-c441-49d3-b6a8-db6583efb9ac"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X9 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 95.78
+                    },
+                    "uuid": "b5d0e2c3-ee42-4a0f-b93f-02cf34be45b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X9 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 95.8
+                    },
+                    "uuid": "fe15455a-c441-49d3-b6a8-db6583efb9ac"
+                },
+                {
+                    "description": "Pad 5 [GND] of X9 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 95.78
+                    },
+                    "uuid": "e0590f38-8e2b-4ff5-b17d-0bc109c84ec7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X9 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 95.8
+                    },
+                    "uuid": "fe15455a-c441-49d3-b6a8-db6583efb9ac"
+                },
+                {
+                    "description": "Pad 3 [Net-(X10-TX)] of X9 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 97.32
+                    },
+                    "uuid": "883677ff-8e9a-4ee6-956a-e24ee5ee4ad1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X9 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 95.8
+                    },
+                    "uuid": "fe15455a-c441-49d3-b6a8-db6583efb9ac"
+                },
+                {
+                    "description": "Pad 1 [GND] of X9 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 97.32
+                    },
+                    "uuid": "94b5e77d-71d0-4261-a281-63f2f81123c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X9 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 95.8
+                    },
+                    "uuid": "fe15455a-c441-49d3-b6a8-db6583efb9ac"
+                },
+                {
+                    "description": "Pad 2 [GND] of X9 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 97.32
+                    },
+                    "uuid": "d728cde3-16cd-4829-8aad-2a74dba060fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1359 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X14",
+                    "pos": {
+                        "x": 141.309,
+                        "y": 99.838
+                    },
+                    "uuid": "7c0d77d9-3f36-4f80-865d-917111ebce99"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X14 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 100.48
+                    },
+                    "uuid": "4365295f-da40-4ebe-93bf-a3f07f473bd9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1359 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X14",
+                    "pos": {
+                        "x": 141.309,
+                        "y": 99.838
+                    },
+                    "uuid": "7c0d77d9-3f36-4f80-865d-917111ebce99"
+                },
+                {
+                    "description": "Pad 5 [GND] of X14 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 100.48
+                    },
+                    "uuid": "d8ad400a-b4d6-4be9-903b-f5da9e7232bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1452 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X14",
+                    "pos": {
+                        "x": 141.309,
+                        "y": 99.838
+                    },
+                    "uuid": "7c0d77d9-3f36-4f80-865d-917111ebce99"
+                },
+                {
+                    "description": "Pad 4 [Net-(X13-RX)] of X14 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 100.48
+                    },
+                    "uuid": "7ac408c2-c509-48ae-a201-d3c22f8bdc61"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X14 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 100.5
+                    },
+                    "uuid": "6b363d2f-dcb7-4fb9-b4a6-c408690a962a"
+                },
+                {
+                    "description": "Pad 4 [Net-(X13-RX)] of X14 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 100.48
+                    },
+                    "uuid": "7ac408c2-c509-48ae-a201-d3c22f8bdc61"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X14 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 100.5
+                    },
+                    "uuid": "6b363d2f-dcb7-4fb9-b4a6-c408690a962a"
+                },
+                {
+                    "description": "Pad 5 [GND] of X14 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 100.48
+                    },
+                    "uuid": "d8ad400a-b4d6-4be9-903b-f5da9e7232bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X14 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 100.5
+                    },
+                    "uuid": "6b363d2f-dcb7-4fb9-b4a6-c408690a962a"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X14 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 100.48
+                    },
+                    "uuid": "4365295f-da40-4ebe-93bf-a3f07f473bd9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X14 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 100.5
+                    },
+                    "uuid": "6b363d2f-dcb7-4fb9-b4a6-c408690a962a"
+                },
+                {
+                    "description": "Pad 3 [Net-(X14-RX)] of X14 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 102.02
+                    },
+                    "uuid": "95acd680-a786-472e-ae3b-93d09e6f932d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X14 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 100.5
+                    },
+                    "uuid": "6b363d2f-dcb7-4fb9-b4a6-c408690a962a"
+                },
+                {
+                    "description": "Pad 1 [GND] of X14 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 102.02
+                    },
+                    "uuid": "92d44327-c22d-4e9e-90b5-c366f176b3a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X14 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 100.5
+                    },
+                    "uuid": "6b363d2f-dcb7-4fb9-b4a6-c408690a962a"
+                },
+                {
+                    "description": "Pad 2 [GND] of X14 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 102.02
+                    },
+                    "uuid": "28881127-b4e7-4235-a5e7-9967e7707c61"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X10 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 100.5
+                    },
+                    "uuid": "f7b7db66-5fdb-45c9-8dd1-48bbf0cda477"
+                },
+                {
+                    "description": "Pad 4 [Net-(X10-TX)] of X10 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 100.48
+                    },
+                    "uuid": "290592a4-8a5d-4c93-b75d-8264d6f92580"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X10 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 100.5
+                    },
+                    "uuid": "f7b7db66-5fdb-45c9-8dd1-48bbf0cda477"
+                },
+                {
+                    "description": "Pad 5 [GND] of X10 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 100.48
+                    },
+                    "uuid": "80b2eaf6-a8dd-4625-94fa-5095569210a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X10 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 100.5
+                    },
+                    "uuid": "f7b7db66-5fdb-45c9-8dd1-48bbf0cda477"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X10 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 100.48
+                    },
+                    "uuid": "63a124e4-643a-4887-b50a-a83b7f861950"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X10 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 100.5
+                    },
+                    "uuid": "f7b7db66-5fdb-45c9-8dd1-48bbf0cda477"
+                },
+                {
+                    "description": "Pad 3 [Net-(X10-RX)] of X10 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 102.02
+                    },
+                    "uuid": "42a7a978-ada6-4198-9871-6f96e20238fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X10 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 100.5
+                    },
+                    "uuid": "f7b7db66-5fdb-45c9-8dd1-48bbf0cda477"
+                },
+                {
+                    "description": "Pad 1 [GND] of X10 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 102.02
+                    },
+                    "uuid": "b1574495-16fb-4f84-ae8b-d50039ef2d9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X10 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 100.5
+                    },
+                    "uuid": "f7b7db66-5fdb-45c9-8dd1-48bbf0cda477"
+                },
+                {
+                    "description": "Pad 2 [GND] of X10 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 102.02
+                    },
+                    "uuid": "4d78866a-7348-4c09-affb-fdb660b36285"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X12 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 109.9
+                    },
+                    "uuid": "f55c7f59-1d9b-4a21-8c73-75b58d2e7e27"
+                },
+                {
+                    "description": "Pad 3 [/Sensor Group/TX3] of X12 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 111.42
+                    },
+                    "uuid": "019d045c-93d2-44b5-a6f0-1e8a7b743cfb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X12 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 109.9
+                    },
+                    "uuid": "f55c7f59-1d9b-4a21-8c73-75b58d2e7e27"
+                },
+                {
+                    "description": "Pad 4 [Net-(X11-RX)] of X12 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 109.88
+                    },
+                    "uuid": "eb12f8db-0a69-4708-a3cc-11f042fb7e2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X12 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 109.9
+                    },
+                    "uuid": "f55c7f59-1d9b-4a21-8c73-75b58d2e7e27"
+                },
+                {
+                    "description": "Pad 1 [GND] of X12 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 111.42
+                    },
+                    "uuid": "dee39e6c-f49d-4bc4-b522-069a21ea5a34"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X12 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 109.9
+                    },
+                    "uuid": "f55c7f59-1d9b-4a21-8c73-75b58d2e7e27"
+                },
+                {
+                    "description": "Pad 2 [GND] of X12 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 111.42
+                    },
+                    "uuid": "236beb93-e5ca-4271-b7e6-0dd4efbc5ffd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X12 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 109.9
+                    },
+                    "uuid": "f55c7f59-1d9b-4a21-8c73-75b58d2e7e27"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X12 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 109.88
+                    },
+                    "uuid": "9637f9f0-96ab-449e-bc38-08345303228b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X11",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 104.54
+                    },
+                    "uuid": "cb1f033e-6640-460c-b218-3b4852c77469"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X11 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 105.18
+                    },
+                    "uuid": "cb04f45c-19e0-40db-83d6-7fda18b4079c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1344 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X11",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 104.54
+                    },
+                    "uuid": "cb1f033e-6640-460c-b218-3b4852c77469"
+                },
+                {
+                    "description": "Pad 5 [GND] of X11 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 105.18
+                    },
+                    "uuid": "985a5aa8-11b0-432f-aecd-87afba7f0037"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1377 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X11",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 104.54
+                    },
+                    "uuid": "cb1f033e-6640-460c-b218-3b4852c77469"
+                },
+                {
+                    "description": "Pad 4 [Net-(X10-RX)] of X11 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 105.18
+                    },
+                    "uuid": "8b4b5a95-43f6-43fe-bf38-1c7c3af1fad8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X11 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 105.2
+                    },
+                    "uuid": "5338eec0-09a0-403a-9e3b-9dc79d117e5c"
+                },
+                {
+                    "description": "Pad 4 [Net-(X10-RX)] of X11 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 105.18
+                    },
+                    "uuid": "8b4b5a95-43f6-43fe-bf38-1c7c3af1fad8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X11 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 105.2
+                    },
+                    "uuid": "5338eec0-09a0-403a-9e3b-9dc79d117e5c"
+                },
+                {
+                    "description": "Pad 5 [GND] of X11 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 105.18
+                    },
+                    "uuid": "985a5aa8-11b0-432f-aecd-87afba7f0037"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X11 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 105.2
+                    },
+                    "uuid": "5338eec0-09a0-403a-9e3b-9dc79d117e5c"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X11 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 105.18
+                    },
+                    "uuid": "cb04f45c-19e0-40db-83d6-7fda18b4079c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X11 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 105.2
+                    },
+                    "uuid": "5338eec0-09a0-403a-9e3b-9dc79d117e5c"
+                },
+                {
+                    "description": "Pad 3 [Net-(X11-RX)] of X11 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 106.72
+                    },
+                    "uuid": "268e291c-e4c8-482b-bfad-0f40b5b3e31c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X11 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 105.2
+                    },
+                    "uuid": "5338eec0-09a0-403a-9e3b-9dc79d117e5c"
+                },
+                {
+                    "description": "Pad 1 [GND] of X11 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 106.72
+                    },
+                    "uuid": "f8b36b33-6b5e-4442-94bf-1a0bd3ffbf84"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1354 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X15",
+                    "pos": {
+                        "x": 141.226,
+                        "y": 104.54
+                    },
+                    "uuid": "6566ed76-1c69-4a21-9641-f21c7981f57f"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X15 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 105.18
+                    },
+                    "uuid": "ae9cb6c8-4837-4982-8114-a4c4d00ddba8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1472 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X15",
+                    "pos": {
+                        "x": 141.226,
+                        "y": 104.54
+                    },
+                    "uuid": "6566ed76-1c69-4a21-9641-f21c7981f57f"
+                },
+                {
+                    "description": "Pad 5 [GND] of X15 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 105.18
+                    },
+                    "uuid": "174b9862-c2ec-4605-865b-009c962bb836"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X11 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 105.2
+                    },
+                    "uuid": "5338eec0-09a0-403a-9e3b-9dc79d117e5c"
+                },
+                {
+                    "description": "Pad 2 [GND] of X11 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 106.72
+                    },
+                    "uuid": "1a981c37-400d-414e-9fdb-595358397b86"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X12",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 109.24
+                    },
+                    "uuid": "436a551b-ec1f-41ae-b839-ebb6825fd43b"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X12 on F.Cu",
+                    "pos": {
+                        "x": 136.35,
+                        "y": 109.88
+                    },
+                    "uuid": "9637f9f0-96ab-449e-bc38-08345303228b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X12",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 109.24
+                    },
+                    "uuid": "436a551b-ec1f-41ae-b839-ebb6825fd43b"
+                },
+                {
+                    "description": "Pad 5 [GND] of X12 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 109.88
+                    },
+                    "uuid": "5dda82e8-c54f-4b23-a172-541badb7e5a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X12 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 109.9
+                    },
+                    "uuid": "f55c7f59-1d9b-4a21-8c73-75b58d2e7e27"
+                },
+                {
+                    "description": "Pad 5 [GND] of X12 on F.Cu",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 109.88
+                    },
+                    "uuid": "5dda82e8-c54f-4b23-a172-541badb7e5a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X12",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 109.24
+                    },
+                    "uuid": "436a551b-ec1f-41ae-b839-ebb6825fd43b"
+                },
+                {
+                    "description": "Pad 4 [Net-(X11-RX)] of X12 on F.Cu",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 109.88
+                    },
+                    "uuid": "eb12f8db-0a69-4708-a3cc-11f042fb7e2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X15 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 105.2
+                    },
+                    "uuid": "88ecd9ad-9e07-43f6-b4ac-45817442207b"
+                },
+                {
+                    "description": "Pad 4 [Net-(X14-RX)] of X15 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 105.18
+                    },
+                    "uuid": "1f9dd3ef-75d1-4db9-b4b6-f3e814e236b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X15 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 105.2
+                    },
+                    "uuid": "88ecd9ad-9e07-43f6-b4ac-45817442207b"
+                },
+                {
+                    "description": "Pad 5 [GND] of X15 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 105.18
+                    },
+                    "uuid": "174b9862-c2ec-4605-865b-009c962bb836"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X15 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 105.2
+                    },
+                    "uuid": "88ecd9ad-9e07-43f6-b4ac-45817442207b"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X15 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 105.18
+                    },
+                    "uuid": "ae9cb6c8-4837-4982-8114-a4c4d00ddba8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X15 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 105.2
+                    },
+                    "uuid": "88ecd9ad-9e07-43f6-b4ac-45817442207b"
+                },
+                {
+                    "description": "Pad 3 [Net-(X15-RX)] of X15 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 106.72
+                    },
+                    "uuid": "40d3f92b-94c6-45c0-abb8-33b164be3611"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X15 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 105.2
+                    },
+                    "uuid": "88ecd9ad-9e07-43f6-b4ac-45817442207b"
+                },
+                {
+                    "description": "Pad 1 [GND] of X15 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 106.72
+                    },
+                    "uuid": "afb91009-4fab-449c-a1a6-8ff1d7cd752d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X15 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 105.2
+                    },
+                    "uuid": "88ecd9ad-9e07-43f6-b4ac-45817442207b"
+                },
+                {
+                    "description": "Pad 2 [GND] of X15 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 106.72
+                    },
+                    "uuid": "a0170252-1712-4d06-938c-4f32dd6646c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1354 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X16",
+                    "pos": {
+                        "x": 141.226,
+                        "y": 109.24
+                    },
+                    "uuid": "58268eeb-47d3-4a76-ab83-06b18be62c98"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X16 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 109.88
+                    },
+                    "uuid": "a35a05d5-5d5d-436a-8685-db1dae83efa5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1472 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X16",
+                    "pos": {
+                        "x": 141.226,
+                        "y": 109.24
+                    },
+                    "uuid": "58268eeb-47d3-4a76-ab83-06b18be62c98"
+                },
+                {
+                    "description": "Pad 5 [GND] of X16 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 109.88
+                    },
+                    "uuid": "958e7e63-39e0-44d2-b355-ba0be8c07d39"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X16 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 109.9
+                    },
+                    "uuid": "fb38eccf-8073-4565-b705-b61ac95798c1"
+                },
+                {
+                    "description": "Pad 4 [Net-(X15-RX)] of X16 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 109.88
+                    },
+                    "uuid": "d5ad8c63-fa43-4f82-ae2b-5ccf35571baa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X16 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 109.9
+                    },
+                    "uuid": "fb38eccf-8073-4565-b705-b61ac95798c1"
+                },
+                {
+                    "description": "Pad 5 [GND] of X16 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 109.88
+                    },
+                    "uuid": "958e7e63-39e0-44d2-b355-ba0be8c07d39"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X16 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 109.9
+                    },
+                    "uuid": "fb38eccf-8073-4565-b705-b61ac95798c1"
+                },
+                {
+                    "description": "Pad 6 [VDD] of X16 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 109.88
+                    },
+                    "uuid": "a35a05d5-5d5d-436a-8685-db1dae83efa5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X16 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 109.9
+                    },
+                    "uuid": "fb38eccf-8073-4565-b705-b61ac95798c1"
+                },
+                {
+                    "description": "Pad 3 [/Sensor Group/TX4] of X16 on F.Cu",
+                    "pos": {
+                        "x": 142.05,
+                        "y": 111.42
+                    },
+                    "uuid": "93f6cda6-7b4e-46c6-a4f5-0b7991d59e69"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X16 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 109.9
+                    },
+                    "uuid": "fb38eccf-8073-4565-b705-b61ac95798c1"
+                },
+                {
+                    "description": "Pad 1 [GND] of X16 on F.Cu",
+                    "pos": {
+                        "x": 141.05,
+                        "y": 111.42
+                    },
+                    "uuid": "f7066384-4a1d-4265-b188-d5c39fdc2847"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Rectangle of X16 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 109.9
+                    },
+                    "uuid": "fb38eccf-8073-4565-b705-b61ac95798c1"
+                },
+                {
+                    "description": "Pad 2 [GND] of X16 on F.Cu",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 111.42
+                    },
+                    "uuid": "0fc65d59-1470-490a-9d51-ba5d77562432"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X5 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 95.8
+                    },
+                    "uuid": "22abdb76-2d67-43e3-bd76-8bb2d697ca37"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X2 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 100.5
+                    },
+                    "uuid": "60788ed2-eda7-4aa5-9d5d-27a3bb1ef3a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X14 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 100.5
+                    },
+                    "uuid": "6b363d2f-dcb7-4fb9-b4a6-c408690a962a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X6 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 100.5
+                    },
+                    "uuid": "487bfd66-72f4-4fe3-a1a1-42d37c97fdbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X1 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 95.8
+                    },
+                    "uuid": "ff11d31f-0b6f-4a45-8ad1-88ed4996e5d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 105.2
+                    },
+                    "uuid": "9732c0b3-2c9a-4bd9-adff-4c65d15eeda1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X11 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 105.2
+                    },
+                    "uuid": "5338eec0-09a0-403a-9e3b-9dc79d117e5c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X15 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 105.2
+                    },
+                    "uuid": "88ecd9ad-9e07-43f6-b4ac-45817442207b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X16 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 109.9
+                    },
+                    "uuid": "fb38eccf-8073-4565-b705-b61ac95798c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X10 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 100.5
+                    },
+                    "uuid": "f7b7db66-5fdb-45c9-8dd1-48bbf0cda477"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X13 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 95.8
+                    },
+                    "uuid": "6302d684-5f70-468d-89b4-76d3f545b846"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X4 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.7,
+                        "y": 109.9
+                    },
+                    "uuid": "6b593274-19b3-4317-a188-612c825bfac5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X8 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 109.9
+                    },
+                    "uuid": "1d205e8e-794b-4e21-a417-80de73bb9a2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X7 on F.Silkscreen",
+                    "pos": {
+                        "x": 131.4,
+                        "y": 105.2
+                    },
+                    "uuid": "8e39ff71-3029-407d-89f2-8114eca4ee08"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X12 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 109.9
+                    },
+                    "uuid": "f55c7f59-1d9b-4a21-8c73-75b58d2e7e27"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of X9 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 95.8
+                    },
+                    "uuid": "fe15455a-c441-49d3-b6a8-db6583efb9ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X3' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.326,
+                        "y": 104.54
+                    },
+                    "uuid": "2cbd6b06-97af-4579-b0f5-c8eb294bfef1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X3' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.326,
+                        "y": 104.54
+                    },
+                    "uuid": "2cbd6b06-97af-4579-b0f5-c8eb294bfef1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X4' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.326,
+                        "y": 109.24
+                    },
+                    "uuid": "96494105-9ee7-46da-909f-9288397486ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X4' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.326,
+                        "y": 109.24
+                    },
+                    "uuid": "96494105-9ee7-46da-909f-9288397486ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X1' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.391,
+                        "y": 98.068
+                    },
+                    "uuid": "21458c24-aa08-4bcd-ae12-eefc6c8344d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X1' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.391,
+                        "y": 98.068
+                    },
+                    "uuid": "21458c24-aa08-4bcd-ae12-eefc6c8344d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X2' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.451,
+                        "y": 99.818
+                    },
+                    "uuid": "9752ac7a-8c6f-4de0-be0c-c91b5fc82bac"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'X2' on F.Silkscreen",
+                    "pos": {
+                        "x": 127.451,
+                        "y": 99.818
+                    },
+                    "uuid": "9752ac7a-8c6f-4de0-be0c-c91b5fc82bac"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX1' on F.Silkscreen",
+                    "pos": {
+                        "x": 124.345,
+                        "y": 96.557
+                    },
+                    "uuid": "7d35cfb1-3a4d-4d29-b617-5797dffe4640"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX1' on F.Silkscreen",
+                    "pos": {
+                        "x": 124.345,
+                        "y": 96.557
+                    },
+                    "uuid": "7d35cfb1-3a4d-4d29-b617-5797dffe4640"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX2' on F.Silkscreen",
+                    "pos": {
+                        "x": 124.703,
+                        "y": 92.306
+                    },
+                    "uuid": "35dde3dd-6561-4c12-9714-b16e04dd85f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX2' on F.Silkscreen",
+                    "pos": {
+                        "x": 124.703,
+                        "y": 92.306
+                    },
+                    "uuid": "35dde3dd-6561-4c12-9714-b16e04dd85f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX3' on F.Silkscreen",
+                    "pos": {
+                        "x": 142.708,
+                        "y": 92.337
+                    },
+                    "uuid": "e7c11b6e-1543-47f8-acfc-f99de73fbb40"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX3' on F.Silkscreen",
+                    "pos": {
+                        "x": 142.708,
+                        "y": 92.337
+                    },
+                    "uuid": "e7c11b6e-1543-47f8-acfc-f99de73fbb40"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX4' on F.Silkscreen",
+                    "pos": {
+                        "x": 143.145,
+                        "y": 96.578
+                    },
+                    "uuid": "272bcb76-4d7f-43e5-b7ca-bb3444c348d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX4' on F.Silkscreen",
+                    "pos": {
+                        "x": 143.145,
+                        "y": 96.578
+                    },
+                    "uuid": "272bcb76-4d7f-43e5-b7ca-bb3444c348d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX1' on F.Silkscreen",
+                    "pos": {
+                        "x": 125.154,
+                        "y": 113.627
+                    },
+                    "uuid": "6d1ef948-1bfb-4b0e-a1e0-f2af11df3de5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX1' on F.Silkscreen",
+                    "pos": {
+                        "x": 125.154,
+                        "y": 113.627
+                    },
+                    "uuid": "6d1ef948-1bfb-4b0e-a1e0-f2af11df3de5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX2' on F.Silkscreen",
+                    "pos": {
+                        "x": 131.94975,
+                        "y": 113.87
+                    },
+                    "uuid": "e61aeea1-307d-41f7-a215-c4de9b7fa357"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX2' on F.Silkscreen",
+                    "pos": {
+                        "x": 131.94975,
+                        "y": 113.87
+                    },
+                    "uuid": "e61aeea1-307d-41f7-a215-c4de9b7fa357"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX3' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.3695,
+                        "y": 113.87
+                    },
+                    "uuid": "41b09f5d-162a-49a6-a4a1-4bfaee6fe267"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX3' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.3695,
+                        "y": 113.87
+                    },
+                    "uuid": "41b09f5d-162a-49a6-a4a1-4bfaee6fe267"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX4' on F.Silkscreen",
+                    "pos": {
+                        "x": 142.209,
+                        "y": 113.87
+                    },
+                    "uuid": "bc3e54f8-7d70-44b6-a9c8-eb9264e64f55"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX4' on F.Silkscreen",
+                    "pos": {
+                        "x": 142.209,
+                        "y": 113.87
+                    },
+                    "uuid": "bc3e54f8-7d70-44b6-a9c8-eb9264e64f55"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'VDD' on F.Silkscreen",
+                    "pos": {
+                        "x": 128.53,
+                        "y": 113.91762
+                    },
+                    "uuid": "d33cb2d1-52fd-4cb8-9312-b1c21f652a3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'VDD' on F.Silkscreen",
+                    "pos": {
+                        "x": 128.53,
+                        "y": 113.91762
+                    },
+                    "uuid": "d33cb2d1-52fd-4cb8-9312-b1c21f652a3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'GND' on F.Silkscreen",
+                    "pos": {
+                        "x": 138.78925,
+                        "y": 113.965239
+                    },
+                    "uuid": "970d6080-07ea-4c5e-a411-b56f6d32fddb"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'GND' on F.Silkscreen",
+                    "pos": {
+                        "x": 138.78925,
+                        "y": 113.965239
+                    },
+                    "uuid": "970d6080-07ea-4c5e-a411-b56f6d32fddb"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'GND' on B.Silkscreen",
+                    "pos": {
+                        "x": 130.051,
+                        "y": 92.521
+                    },
+                    "uuid": "cd234e4d-9d63-4f91-8e9a-2bcd2fcbc310"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'GND' on B.Silkscreen",
+                    "pos": {
+                        "x": 130.051,
+                        "y": 92.521
+                    },
+                    "uuid": "cd234e4d-9d63-4f91-8e9a-2bcd2fcbc310"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX1' on B.Silkscreen",
+                    "pos": {
+                        "x": 131.01,
+                        "y": 92.524
+                    },
+                    "uuid": "414bb54d-95f2-49e5-b346-c7293e9a2fd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX1' on B.Silkscreen",
+                    "pos": {
+                        "x": 131.01,
+                        "y": 92.524
+                    },
+                    "uuid": "414bb54d-95f2-49e5-b346-c7293e9a2fd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX1' on B.Silkscreen",
+                    "pos": {
+                        "x": 132.034,
+                        "y": 92.535
+                    },
+                    "uuid": "a03c10a1-401b-4353-a9b9-0af289e6fd1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX1' on B.Silkscreen",
+                    "pos": {
+                        "x": 132.034,
+                        "y": 92.535
+                    },
+                    "uuid": "a03c10a1-401b-4353-a9b9-0af289e6fd1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX2' on B.Silkscreen",
+                    "pos": {
+                        "x": 133.03,
+                        "y": 92.541
+                    },
+                    "uuid": "0dbfe70d-a5a6-48a3-99d8-e35e9f2f021b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX2' on B.Silkscreen",
+                    "pos": {
+                        "x": 133.03,
+                        "y": 92.541
+                    },
+                    "uuid": "0dbfe70d-a5a6-48a3-99d8-e35e9f2f021b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX2' on B.Silkscreen",
+                    "pos": {
+                        "x": 134.029,
+                        "y": 92.575
+                    },
+                    "uuid": "29789535-4d9c-4860-9ec6-124c320468e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX2' on B.Silkscreen",
+                    "pos": {
+                        "x": 134.029,
+                        "y": 92.575
+                    },
+                    "uuid": "29789535-4d9c-4860-9ec6-124c320468e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX3' on B.Silkscreen",
+                    "pos": {
+                        "x": 135.051,
+                        "y": 92.192
+                    },
+                    "uuid": "306aa4b0-e6ba-4465-8f6d-c81bed1129c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX3' on B.Silkscreen",
+                    "pos": {
+                        "x": 135.051,
+                        "y": 92.192
+                    },
+                    "uuid": "306aa4b0-e6ba-4465-8f6d-c81bed1129c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX3' on B.Silkscreen",
+                    "pos": {
+                        "x": 136.044,
+                        "y": 92.383
+                    },
+                    "uuid": "2751a76c-2e19-40d0-b351-1d2f1c33dab9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX3' on B.Silkscreen",
+                    "pos": {
+                        "x": 136.044,
+                        "y": 92.383
+                    },
+                    "uuid": "2751a76c-2e19-40d0-b351-1d2f1c33dab9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX4' on B.Silkscreen",
+                    "pos": {
+                        "x": 137.044,
+                        "y": 92.541
+                    },
+                    "uuid": "ca979b5d-080f-4983-b403-cc14453d0e31"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX4' on B.Silkscreen",
+                    "pos": {
+                        "x": 137.044,
+                        "y": 92.541
+                    },
+                    "uuid": "ca979b5d-080f-4983-b403-cc14453d0e31"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX4' on B.Silkscreen",
+                    "pos": {
+                        "x": 138.045,
+                        "y": 92.54
+                    },
+                    "uuid": "329387a2-1412-41fe-8689-846c8f2fb68f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX4' on B.Silkscreen",
+                    "pos": {
+                        "x": 138.045,
+                        "y": 92.54
+                    },
+                    "uuid": "329387a2-1412-41fe-8689-846c8f2fb68f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'VDD' on B.Silkscreen",
+                    "pos": {
+                        "x": 139.032,
+                        "y": 92.451
+                    },
+                    "uuid": "bb206f0f-8eca-4e2f-addd-00ba826e022d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'VDD' on B.Silkscreen",
+                    "pos": {
+                        "x": 139.032,
+                        "y": 92.451
+                    },
+                    "uuid": "bb206f0f-8eca-4e2f-addd-00ba826e022d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X5",
+                    "pos": {
+                        "x": 131.91,
+                        "y": 98.07
+                    },
+                    "uuid": "db32fc39-2652-4763-9b06-e9fb1c72cf24"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X5",
+                    "pos": {
+                        "x": 131.91,
+                        "y": 98.07
+                    },
+                    "uuid": "db32fc39-2652-4763-9b06-e9fb1c72cf24"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X14",
+                    "pos": {
+                        "x": 141.309,
+                        "y": 99.838
+                    },
+                    "uuid": "7c0d77d9-3f36-4f80-865d-917111ebce99"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X14",
+                    "pos": {
+                        "x": 141.309,
+                        "y": 99.838
+                    },
+                    "uuid": "7c0d77d9-3f36-4f80-865d-917111ebce99"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.6500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of J2",
+                    "pos": {
+                        "x": 140.712,
+                        "y": 92.9
+                    },
+                    "uuid": "35d4b036-b674-42c0-8490-d86f82a50870"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X6",
+                    "pos": {
+                        "x": 132.103,
+                        "y": 99.81
+                    },
+                    "uuid": "f3f91022-482e-47c4-8439-f77f8e52616b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X6",
+                    "pos": {
+                        "x": 132.103,
+                        "y": 99.81
+                    },
+                    "uuid": "f3f91022-482e-47c4-8439-f77f8e52616b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X11",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 104.54
+                    },
+                    "uuid": "cb1f033e-6640-460c-b218-3b4852c77469"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X11",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 104.54
+                    },
+                    "uuid": "cb1f033e-6640-460c-b218-3b4852c77469"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X15",
+                    "pos": {
+                        "x": 141.226,
+                        "y": 104.54
+                    },
+                    "uuid": "6566ed76-1c69-4a21-9641-f21c7981f57f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X15",
+                    "pos": {
+                        "x": 141.226,
+                        "y": 104.54
+                    },
+                    "uuid": "6566ed76-1c69-4a21-9641-f21c7981f57f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X16",
+                    "pos": {
+                        "x": 141.226,
+                        "y": 109.24
+                    },
+                    "uuid": "58268eeb-47d3-4a76-ab83-06b18be62c98"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X16",
+                    "pos": {
+                        "x": 141.226,
+                        "y": 109.24
+                    },
+                    "uuid": "58268eeb-47d3-4a76-ab83-06b18be62c98"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X10",
+                    "pos": {
+                        "x": 136.521,
+                        "y": 99.731
+                    },
+                    "uuid": "1d95bebf-1b4f-4496-9f39-b4780923396c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X10",
+                    "pos": {
+                        "x": 136.521,
+                        "y": 99.731
+                    },
+                    "uuid": "1d95bebf-1b4f-4496-9f39-b4780923396c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X13",
+                    "pos": {
+                        "x": 141.238,
+                        "y": 98.098
+                    },
+                    "uuid": "55a64f75-5613-47d9-8f9c-24b5ec6f0a4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X13",
+                    "pos": {
+                        "x": 141.238,
+                        "y": 98.098
+                    },
+                    "uuid": "55a64f75-5613-47d9-8f9c-24b5ec6f0a4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X8",
+                    "pos": {
+                        "x": 132.026,
+                        "y": 109.24
+                    },
+                    "uuid": "b9bf8171-2dbd-4658-a2cd-308a719b95fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X8",
+                    "pos": {
+                        "x": 132.026,
+                        "y": 109.24
+                    },
+                    "uuid": "b9bf8171-2dbd-4658-a2cd-308a719b95fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X7",
+                    "pos": {
+                        "x": 132.026,
+                        "y": 104.54
+                    },
+                    "uuid": "9eb2f0a8-00b9-45f0-a71a-5c4b2393f156"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X7",
+                    "pos": {
+                        "x": 132.026,
+                        "y": 104.54
+                    },
+                    "uuid": "9eb2f0a8-00b9-45f0-a71a-5c4b2393f156"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X12",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 109.24
+                    },
+                    "uuid": "436a551b-ec1f-41ae-b839-ebb6825fd43b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X12",
+                    "pos": {
+                        "x": 136.726,
+                        "y": 109.24
+                    },
+                    "uuid": "436a551b-ec1f-41ae-b839-ebb6825fd43b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X9",
+                    "pos": {
+                        "x": 136.52,
+                        "y": 98.15
+                    },
+                    "uuid": "41280bd1-9d5f-454f-a664-93c420bf100e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of X9",
+                    "pos": {
+                        "x": 136.52,
+                        "y": 98.15
+                    },
+                    "uuid": "41280bd1-9d5f-454f-a664-93c420bf100e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X5",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 96.55
+                    },
+                    "uuid": "08c8cbca-fcbf-4b3f-9f77-df18dd3a62bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X2",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 101.25
+                    },
+                    "uuid": "13cfe545-aeaa-4137-bd3a-b2f3a520f65c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X14",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 101.25
+                    },
+                    "uuid": "19c6d452-30b9-4d1e-a70a-e98bfafca887"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 134.51,
+                        "y": 93.01
+                    },
+                    "uuid": "1be015ea-e726-4d55-8d22-2279745b23a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X6",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 101.25
+                    },
+                    "uuid": "39f88b14-dce4-442a-9c13-170fe89680d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X1",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 96.55
+                    },
+                    "uuid": "43c9e646-bbd5-4840-b321-a75b53a1ca89"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X3",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 105.95
+                    },
+                    "uuid": "5c3e505f-8236-4dee-bb4d-1faf16e405ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X11",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 105.95
+                    },
+                    "uuid": "5f31b95c-189d-468e-ab0f-0c8d77eb7e0f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X15",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 105.95
+                    },
+                    "uuid": "6feb6198-fe5f-4729-84d3-a540757c3a34"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X16",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 110.65
+                    },
+                    "uuid": "8347e87a-a1f4-4006-95f5-a5f9e56504a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X10",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 101.25
+                    },
+                    "uuid": "90137748-8cc6-4201-9ebb-320eafa5275a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X13",
+                    "pos": {
+                        "x": 141.55,
+                        "y": 96.55
+                    },
+                    "uuid": "ce726d39-226c-496c-80ee-cb24f61dd1e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X4",
+                    "pos": {
+                        "x": 127.45,
+                        "y": 110.65
+                    },
+                    "uuid": "d9203cb6-3b7d-4a96-b3f3-eccb7b054ab1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X8",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 110.65
+                    },
+                    "uuid": "da5c007b-460e-4615-928d-4b852597ca05"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X7",
+                    "pos": {
+                        "x": 132.15,
+                        "y": 105.95
+                    },
+                    "uuid": "f1e85f29-7844-4aa3-ba24-5553e61b7556"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X12",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 110.65
+                    },
+                    "uuid": "f37284cb-ac13-44eb-96cd-af029b53ab38"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint X9",
+                    "pos": {
+                        "x": 136.85,
+                        "y": 96.55
+                    },
+                    "uuid": "f741d5a3-473c-4017-9df3-099c6f10932c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_2",
+                    "pos": {
+                        "x": 130.15,
+                        "y": 96.712
+                    },
+                    "uuid": "0d55c427-1281-4f27-86ab-50c1d055cb66"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_13",
+                    "pos": {
+                        "x": 125.45,
+                        "y": 110.8
+                    },
+                    "uuid": "175e3dd8-1382-4b1a-a9ee-6b5eaa91dae7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_7",
+                    "pos": {
+                        "x": 134.85,
+                        "y": 101.412
+                    },
+                    "uuid": "2baf3680-0ea5-420a-80f5-e522e12bf507"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_8",
+                    "pos": {
+                        "x": 139.55,
+                        "y": 101.412
+                    },
+                    "uuid": "5365be09-46c3-463e-8c5c-41f5688b862a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_6",
+                    "pos": {
+                        "x": 130.15,
+                        "y": 101.412
+                    },
+                    "uuid": "58e2db60-8830-43be-874f-3a43b500ab20"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_16",
+                    "pos": {
+                        "x": 139.55,
+                        "y": 110.812
+                    },
+                    "uuid": "6b82e9bf-091e-46a6-b155-60c1c77ad0e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_3",
+                    "pos": {
+                        "x": 134.85,
+                        "y": 96.712
+                    },
+                    "uuid": "7745c670-cb33-4e86-a6d7-e371219d41dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_11",
+                    "pos": {
+                        "x": 134.85,
+                        "y": 106.112
+                    },
+                    "uuid": "7771d392-110b-4b78-86e7-64c200ead12c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_1",
+                    "pos": {
+                        "x": 125.45,
+                        "y": 96.712
+                    },
+                    "uuid": "8828d2f7-194a-4b24-8108-53a7175f7c64"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_12",
+                    "pos": {
+                        "x": 139.55,
+                        "y": 106.112
+                    },
+                    "uuid": "965b34b9-80b1-4f6d-aabd-ef55d7107289"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_5",
+                    "pos": {
+                        "x": 125.45,
+                        "y": 101.412
+                    },
+                    "uuid": "b987a657-a7a3-4d19-9c8a-988f873c582d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_14",
+                    "pos": {
+                        "x": 130.15,
+                        "y": 110.812
+                    },
+                    "uuid": "bd576ed3-00f1-4106-b885-72141f6eef00"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_10",
+                    "pos": {
+                        "x": 130.15,
+                        "y": 106.112
+                    },
+                    "uuid": "d79b40cb-f65d-4a65-a5e8-0206a74aac35"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_4",
+                    "pos": {
+                        "x": 139.55,
+                        "y": 96.712
+                    },
+                    "uuid": "ebb60bfc-7b2d-4ff2-8741-febd7ed045ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_15",
+                    "pos": {
+                        "x": 134.85,
+                        "y": 110.812
+                    },
+                    "uuid": "f218fe11-4123-4638-abce-8863c9a4d263"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XELA-Robotics'",
+            "items": [
+                {
+                    "description": "Footprint CC_9",
+                    "pos": {
+                        "x": 125.45,
+                        "y": 106.112
+                    },
+                    "uuid": "ffb4b718-85f8-49fa-8ae1-096c931af12b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "Via [/Sensor Group/RX3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 137.849,
+                        "y": 96.047
+                    },
+                    "uuid": "bc092fc1-1a58-4951-a91e-b398cea44a08"
+                },
+                {
+                    "description": "Via [/Sensor Group/RX3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 137.849,
+                        "y": 96.047
+                    },
+                    "uuid": "c1df9047-1da5-4b89-8dff-fd5495dc4620"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        }
+    ]
+}

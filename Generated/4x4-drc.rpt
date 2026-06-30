@@ -1,0 +1,896 @@
+** Drc report for 4x4.kicad_pcb **
+** Created on 2026-06-30T15:28:38 **
+
+** Found 252 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(138.11 mm, 94.11 mm): Pad 1 [VDD] of J2 on F.Cu
+    @(137.31 mm, 94.11 mm): Pad 2 [/Sensor Group/TX4] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(137.31 mm, 94.11 mm): Pad 2 [/Sensor Group/TX4] of J2 on F.Cu
+    @(136.51 mm, 94.11 mm): Pad 3 [/Sensor Group/RX4] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(136.51 mm, 94.11 mm): Pad 3 [/Sensor Group/RX4] of J2 on F.Cu
+    @(135.71 mm, 94.11 mm): Pad 4 [/Sensor Group/TX3] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(135.71 mm, 94.11 mm): Pad 4 [/Sensor Group/TX3] of J2 on F.Cu
+    @(134.91 mm, 94.11 mm): Pad 5 [/Sensor Group/RX3] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(138.558794 mm, 93.4438 mm): Track [/Sensor Group/RX4] on F.Cu, length 1.6650 mm
+    @(138.11 mm, 94.11 mm): Pad 1 [VDD] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(134.91 mm, 94.11 mm): Pad 5 [/Sensor Group/RX3] of J2 on F.Cu
+    @(134.11 mm, 94.11 mm): Pad 6 [/Sensor Group/TX2] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(138.558794 mm, 93.4438 mm): Track [/Sensor Group/RX4] on F.Cu, length 1.6650 mm
+    @(137.31 mm, 94.11 mm): Pad 2 [/Sensor Group/TX4] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(134.11 mm, 94.11 mm): Pad 6 [/Sensor Group/TX2] of J2 on F.Cu
+    @(133.31 mm, 94.11 mm): Pad 7 [/Sensor Group/RX2] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(133.31 mm, 94.11 mm): Pad 7 [/Sensor Group/RX2] of J2 on F.Cu
+    @(132.51 mm, 94.11 mm): Pad 8 [/Sensor Group/TX1] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(132.51 mm, 94.11 mm): Pad 8 [/Sensor Group/TX1] of J2 on F.Cu
+    @(131.71 mm, 94.11 mm): Pad 9 [/Sensor Group/RX1] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(138.6592 mm, 93.2014 mm): Track [/Sensor Group/RX3] on F.Cu, length 3.4896 mm
+    @(139.41 mm, 92.26 mm): Pad S1 [GND] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(131.71 mm, 94.11 mm): Pad 9 [/Sensor Group/RX1] of J2 on F.Cu
+    @(130.91 mm, 94.11 mm): Pad 10 [GND] of J2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; error
+    @(138.6592 mm, 93.2014 mm): Track [/Sensor Group/RX3] on F.Cu, length 0.3609 mm
+    @(139.41 mm, 92.26 mm): Pad S1 [GND] of J2 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 100.5 mm): Rectangle of X2 on F.Silkscreen
+    @(126.95 mm, 100.48 mm): Pad 6 [VDD] of X2 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 100.5 mm): Rectangle of X2 on F.Silkscreen
+    @(127.95 mm, 100.48 mm): Pad 4 [Net-(X1-RX)] of X2 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 100.5 mm): Rectangle of X2 on F.Silkscreen
+    @(127.45 mm, 100.48 mm): Pad 5 [GND] of X2 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(126.7 mm, 100.5 mm): Rectangle of X2 on F.Silkscreen
+    @(127.95 mm, 102.02 mm): Pad 3 [Net-(X2-RX)] of X2 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 100.5 mm): Rectangle of X2 on F.Silkscreen
+    @(126.95 mm, 102.02 mm): Pad 1 [GND] of X2 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 100.5 mm): Rectangle of X2 on F.Silkscreen
+    @(127.45 mm, 102.02 mm): Pad 2 [GND] of X2 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 95.8 mm): Rectangle of X1 on F.Silkscreen
+    @(127.45 mm, 95.78 mm): Pad 5 [GND] of X1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 95.8 mm): Rectangle of X1 on F.Silkscreen
+    @(126.95 mm, 95.78 mm): Pad 6 [VDD] of X1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 95.8 mm): Rectangle of X1 on F.Silkscreen
+    @(127.95 mm, 95.78 mm): Pad 4 [/Sensor Group/RX1] of X1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(126.7 mm, 95.8 mm): Rectangle of X1 on F.Silkscreen
+    @(127.95 mm, 97.32 mm): Pad 3 [Net-(X1-RX)] of X1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 95.8 mm): Rectangle of X1 on F.Silkscreen
+    @(126.95 mm, 97.32 mm): Pad 1 [GND] of X1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 95.8 mm): Rectangle of X1 on F.Silkscreen
+    @(127.45 mm, 97.32 mm): Pad 2 [GND] of X1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 95.8 mm): Rectangle of X5 on F.Silkscreen
+    @(132.65 mm, 95.78 mm): Pad 4 [/Sensor Group/RX2] of X5 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 95.8 mm): Rectangle of X5 on F.Silkscreen
+    @(132.15 mm, 95.78 mm): Pad 5 [GND] of X5 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 95.8 mm): Rectangle of X5 on F.Silkscreen
+    @(131.65 mm, 95.78 mm): Pad 6 [VDD] of X5 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(131.4 mm, 95.8 mm): Rectangle of X5 on F.Silkscreen
+    @(132.65 mm, 97.32 mm): Pad 3 [Net-(X5-RX)] of X5 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 95.8 mm): Rectangle of X5 on F.Silkscreen
+    @(132.15 mm, 97.32 mm): Pad 2 [GND] of X5 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 95.8 mm): Rectangle of X5 on F.Silkscreen
+    @(131.65 mm, 97.32 mm): Pad 1 [GND] of X5 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 100.5 mm): Rectangle of X6 on F.Silkscreen
+    @(132.65 mm, 100.48 mm): Pad 4 [Net-(X5-RX)] of X6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 100.5 mm): Rectangle of X6 on F.Silkscreen
+    @(132.15 mm, 100.48 mm): Pad 5 [GND] of X6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 100.5 mm): Rectangle of X6 on F.Silkscreen
+    @(131.65 mm, 100.48 mm): Pad 6 [VDD] of X6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(131.4 mm, 100.5 mm): Rectangle of X6 on F.Silkscreen
+    @(132.65 mm, 102.02 mm): Pad 3 [Net-(X6-RX)] of X6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 100.5 mm): Rectangle of X6 on F.Silkscreen
+    @(131.65 mm, 102.02 mm): Pad 1 [GND] of X6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 100.5 mm): Rectangle of X6 on F.Silkscreen
+    @(132.15 mm, 102.02 mm): Pad 2 [GND] of X6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(127.326 mm, 104.54 mm): PCB text 'X3' on F.Silkscreen
+    @(126.95 mm, 105.18 mm): Pad 6 [VDD] of X3 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(127.326 mm, 104.54 mm): PCB text 'X3' on F.Silkscreen
+    @(127.45 mm, 105.18 mm): Pad 5 [GND] of X3 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(127.326 mm, 109.24 mm): PCB text 'X4' on F.Silkscreen
+    @(126.95 mm, 109.88 mm): Pad 6 [VDD] of X4 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 109.9 mm): Rectangle of X4 on F.Silkscreen
+    @(127.95 mm, 109.88 mm): Pad 4 [Net-(X3-RX)] of X4 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 109.9 mm): Rectangle of X4 on F.Silkscreen
+    @(127.45 mm, 109.88 mm): Pad 5 [GND] of X4 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 109.9 mm): Rectangle of X4 on F.Silkscreen
+    @(126.95 mm, 109.88 mm): Pad 6 [VDD] of X4 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 105.2 mm): Rectangle of X3 on F.Silkscreen
+    @(127.95 mm, 105.18 mm): Pad 4 [Net-(X2-RX)] of X3 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 105.2 mm): Rectangle of X3 on F.Silkscreen
+    @(127.45 mm, 105.18 mm): Pad 5 [GND] of X3 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 105.2 mm): Rectangle of X3 on F.Silkscreen
+    @(126.95 mm, 105.18 mm): Pad 6 [VDD] of X3 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(126.7 mm, 105.2 mm): Rectangle of X3 on F.Silkscreen
+    @(127.95 mm, 106.72 mm): Pad 3 [Net-(X3-RX)] of X3 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 105.2 mm): Rectangle of X3 on F.Silkscreen
+    @(126.95 mm, 106.72 mm): Pad 1 [GND] of X3 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 105.2 mm): Rectangle of X3 on F.Silkscreen
+    @(127.45 mm, 106.72 mm): Pad 2 [GND] of X3 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(132.026 mm, 104.54 mm): Reference field of X7
+    @(131.65 mm, 105.18 mm): Pad 6 [VDD] of X7 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(132.026 mm, 104.54 mm): Reference field of X7
+    @(132.15 mm, 105.18 mm): Pad 5 [GND] of X7 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 105.2 mm): Rectangle of X7 on F.Silkscreen
+    @(132.65 mm, 105.18 mm): Pad 4 [Net-(X6-RX)] of X7 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 105.2 mm): Rectangle of X7 on F.Silkscreen
+    @(132.15 mm, 105.18 mm): Pad 5 [GND] of X7 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 105.2 mm): Rectangle of X7 on F.Silkscreen
+    @(131.65 mm, 105.18 mm): Pad 6 [VDD] of X7 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(131.4 mm, 105.2 mm): Rectangle of X7 on F.Silkscreen
+    @(132.65 mm, 106.72 mm): Pad 3 [Net-(X7-RX)] of X7 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 105.2 mm): Rectangle of X7 on F.Silkscreen
+    @(131.65 mm, 106.72 mm): Pad 1 [GND] of X7 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 105.2 mm): Rectangle of X7 on F.Silkscreen
+    @(132.15 mm, 106.72 mm): Pad 2 [GND] of X7 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(126.7 mm, 109.9 mm): Rectangle of X4 on F.Silkscreen
+    @(127.95 mm, 111.42 mm): Pad 3 [/Sensor Group/TX1] of X4 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 109.9 mm): Rectangle of X4 on F.Silkscreen
+    @(126.95 mm, 111.42 mm): Pad 1 [GND] of X4 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(126.7 mm, 109.9 mm): Rectangle of X4 on F.Silkscreen
+    @(127.45 mm, 111.42 mm): Pad 2 [GND] of X4 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(132.026 mm, 109.24 mm): Reference field of X8
+    @(131.65 mm, 109.88 mm): Pad 6 [VDD] of X8 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(132.026 mm, 109.24 mm): Reference field of X8
+    @(132.15 mm, 109.88 mm): Pad 5 [GND] of X8 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 109.9 mm): Rectangle of X8 on F.Silkscreen
+    @(132.65 mm, 109.88 mm): Pad 4 [Net-(X7-RX)] of X8 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 109.9 mm): Rectangle of X8 on F.Silkscreen
+    @(132.15 mm, 109.88 mm): Pad 5 [GND] of X8 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 109.9 mm): Rectangle of X8 on F.Silkscreen
+    @(131.65 mm, 109.88 mm): Pad 6 [VDD] of X8 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(131.4 mm, 109.9 mm): Rectangle of X8 on F.Silkscreen
+    @(132.65 mm, 111.42 mm): Pad 3 [/Sensor Group/TX2] of X8 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 109.9 mm): Rectangle of X8 on F.Silkscreen
+    @(131.65 mm, 111.42 mm): Pad 1 [GND] of X8 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(131.4 mm, 109.9 mm): Rectangle of X8 on F.Silkscreen
+    @(132.15 mm, 111.42 mm): Pad 2 [GND] of X8 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 95.8 mm): Rectangle of X13 on F.Silkscreen
+    @(142.05 mm, 95.78 mm): Pad 4 [/Sensor Group/RX4] of X13 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 95.8 mm): Rectangle of X13 on F.Silkscreen
+    @(141.55 mm, 95.78 mm): Pad 5 [GND] of X13 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 95.8 mm): Rectangle of X13 on F.Silkscreen
+    @(141.05 mm, 95.78 mm): Pad 6 [VDD] of X13 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(140.8 mm, 95.8 mm): Rectangle of X13 on F.Silkscreen
+    @(142.05 mm, 97.32 mm): Pad 3 [Net-(X13-RX)] of X13 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 95.8 mm): Rectangle of X13 on F.Silkscreen
+    @(141.05 mm, 97.32 mm): Pad 1 [GND] of X13 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 95.8 mm): Rectangle of X13 on F.Silkscreen
+    @(141.55 mm, 97.32 mm): Pad 2 [GND] of X13 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 95.8 mm): Rectangle of X9 on F.Silkscreen
+    @(137.35 mm, 95.78 mm): Pad 4 [/Sensor Group/RX3] of X9 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 95.8 mm): Rectangle of X9 on F.Silkscreen
+    @(136.35 mm, 95.78 mm): Pad 6 [VDD] of X9 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 95.8 mm): Rectangle of X9 on F.Silkscreen
+    @(136.85 mm, 95.78 mm): Pad 5 [GND] of X9 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(136.1 mm, 95.8 mm): Rectangle of X9 on F.Silkscreen
+    @(137.35 mm, 97.32 mm): Pad 3 [Net-(X10-TX)] of X9 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 95.8 mm): Rectangle of X9 on F.Silkscreen
+    @(136.35 mm, 97.32 mm): Pad 1 [GND] of X9 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 95.8 mm): Rectangle of X9 on F.Silkscreen
+    @(136.85 mm, 97.32 mm): Pad 2 [GND] of X9 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1359 mm)
+    ; warning
+    @(141.309 mm, 99.838 mm): Reference field of X14
+    @(141.05 mm, 100.48 mm): Pad 6 [VDD] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1359 mm)
+    ; warning
+    @(141.309 mm, 99.838 mm): Reference field of X14
+    @(141.55 mm, 100.48 mm): Pad 5 [GND] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1452 mm)
+    ; warning
+    @(141.309 mm, 99.838 mm): Reference field of X14
+    @(142.05 mm, 100.48 mm): Pad 4 [Net-(X13-RX)] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 100.5 mm): Rectangle of X14 on F.Silkscreen
+    @(142.05 mm, 100.48 mm): Pad 4 [Net-(X13-RX)] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 100.5 mm): Rectangle of X14 on F.Silkscreen
+    @(141.55 mm, 100.48 mm): Pad 5 [GND] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 100.5 mm): Rectangle of X14 on F.Silkscreen
+    @(141.05 mm, 100.48 mm): Pad 6 [VDD] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(140.8 mm, 100.5 mm): Rectangle of X14 on F.Silkscreen
+    @(142.05 mm, 102.02 mm): Pad 3 [Net-(X14-RX)] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 100.5 mm): Rectangle of X14 on F.Silkscreen
+    @(141.05 mm, 102.02 mm): Pad 1 [GND] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 100.5 mm): Rectangle of X14 on F.Silkscreen
+    @(141.55 mm, 102.02 mm): Pad 2 [GND] of X14 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 100.5 mm): Rectangle of X10 on F.Silkscreen
+    @(137.35 mm, 100.48 mm): Pad 4 [Net-(X10-TX)] of X10 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 100.5 mm): Rectangle of X10 on F.Silkscreen
+    @(136.85 mm, 100.48 mm): Pad 5 [GND] of X10 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 100.5 mm): Rectangle of X10 on F.Silkscreen
+    @(136.35 mm, 100.48 mm): Pad 6 [VDD] of X10 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(136.1 mm, 100.5 mm): Rectangle of X10 on F.Silkscreen
+    @(137.35 mm, 102.02 mm): Pad 3 [Net-(X10-RX)] of X10 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 100.5 mm): Rectangle of X10 on F.Silkscreen
+    @(136.35 mm, 102.02 mm): Pad 1 [GND] of X10 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 100.5 mm): Rectangle of X10 on F.Silkscreen
+    @(136.85 mm, 102.02 mm): Pad 2 [GND] of X10 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(136.1 mm, 109.9 mm): Rectangle of X12 on F.Silkscreen
+    @(137.35 mm, 111.42 mm): Pad 3 [/Sensor Group/TX3] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(136.1 mm, 109.9 mm): Rectangle of X12 on F.Silkscreen
+    @(137.35 mm, 109.88 mm): Pad 4 [Net-(X11-RX)] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 109.9 mm): Rectangle of X12 on F.Silkscreen
+    @(136.35 mm, 111.42 mm): Pad 1 [GND] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 109.9 mm): Rectangle of X12 on F.Silkscreen
+    @(136.85 mm, 111.42 mm): Pad 2 [GND] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(136.1 mm, 109.9 mm): Rectangle of X12 on F.Silkscreen
+    @(136.35 mm, 109.88 mm): Pad 6 [VDD] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(136.726 mm, 104.54 mm): Reference field of X11
+    @(136.35 mm, 105.18 mm): Pad 6 [VDD] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1344 mm)
+    ; warning
+    @(136.726 mm, 104.54 mm): Reference field of X11
+    @(136.85 mm, 105.18 mm): Pad 5 [GND] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1377 mm)
+    ; warning
+    @(136.726 mm, 104.54 mm): Reference field of X11
+    @(137.35 mm, 105.18 mm): Pad 4 [Net-(X10-RX)] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 105.2 mm): Rectangle of X11 on F.Silkscreen
+    @(137.35 mm, 105.18 mm): Pad 4 [Net-(X10-RX)] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 105.2 mm): Rectangle of X11 on F.Silkscreen
+    @(136.85 mm, 105.18 mm): Pad 5 [GND] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 105.2 mm): Rectangle of X11 on F.Silkscreen
+    @(136.35 mm, 105.18 mm): Pad 6 [VDD] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(136.1 mm, 105.2 mm): Rectangle of X11 on F.Silkscreen
+    @(137.35 mm, 106.72 mm): Pad 3 [Net-(X11-RX)] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(136.1 mm, 105.2 mm): Rectangle of X11 on F.Silkscreen
+    @(136.35 mm, 106.72 mm): Pad 1 [GND] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1354 mm)
+    ; warning
+    @(141.226 mm, 104.54 mm): Reference field of X15
+    @(141.05 mm, 105.18 mm): Pad 6 [VDD] of X15 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1472 mm)
+    ; warning
+    @(141.226 mm, 104.54 mm): Reference field of X15
+    @(141.55 mm, 105.18 mm): Pad 5 [GND] of X15 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 105.2 mm): Rectangle of X11 on F.Silkscreen
+    @(136.85 mm, 106.72 mm): Pad 2 [GND] of X11 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(136.726 mm, 109.24 mm): Reference field of X12
+    @(136.35 mm, 109.88 mm): Pad 6 [VDD] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(136.726 mm, 109.24 mm): Reference field of X12
+    @(136.85 mm, 109.88 mm): Pad 5 [GND] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(136.1 mm, 109.9 mm): Rectangle of X12 on F.Silkscreen
+    @(136.85 mm, 109.88 mm): Pad 5 [GND] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1339 mm)
+    ; warning
+    @(136.726 mm, 109.24 mm): Reference field of X12
+    @(137.35 mm, 109.88 mm): Pad 4 [Net-(X11-RX)] of X12 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 105.2 mm): Rectangle of X15 on F.Silkscreen
+    @(142.05 mm, 105.18 mm): Pad 4 [Net-(X14-RX)] of X15 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 105.2 mm): Rectangle of X15 on F.Silkscreen
+    @(141.55 mm, 105.18 mm): Pad 5 [GND] of X15 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 105.2 mm): Rectangle of X15 on F.Silkscreen
+    @(141.05 mm, 105.18 mm): Pad 6 [VDD] of X15 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(140.8 mm, 105.2 mm): Rectangle of X15 on F.Silkscreen
+    @(142.05 mm, 106.72 mm): Pad 3 [Net-(X15-RX)] of X15 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 105.2 mm): Rectangle of X15 on F.Silkscreen
+    @(141.05 mm, 106.72 mm): Pad 1 [GND] of X15 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 105.2 mm): Rectangle of X15 on F.Silkscreen
+    @(141.55 mm, 106.72 mm): Pad 2 [GND] of X15 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1354 mm)
+    ; warning
+    @(141.226 mm, 109.24 mm): Reference field of X16
+    @(141.05 mm, 109.88 mm): Pad 6 [VDD] of X16 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.1472 mm)
+    ; warning
+    @(141.226 mm, 109.24 mm): Reference field of X16
+    @(141.55 mm, 109.88 mm): Pad 5 [GND] of X16 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 109.9 mm): Rectangle of X16 on F.Silkscreen
+    @(142.05 mm, 109.88 mm): Pad 4 [Net-(X15-RX)] of X16 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 109.9 mm): Rectangle of X16 on F.Silkscreen
+    @(141.55 mm, 109.88 mm): Pad 5 [GND] of X16 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 109.9 mm): Rectangle of X16 on F.Silkscreen
+    @(141.05 mm, 109.88 mm): Pad 6 [VDD] of X16 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0900 mm)
+    ; warning
+    @(140.8 mm, 109.9 mm): Rectangle of X16 on F.Silkscreen
+    @(142.05 mm, 111.42 mm): Pad 3 [/Sensor Group/TX4] of X16 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 109.9 mm): Rectangle of X16 on F.Silkscreen
+    @(141.05 mm, 111.42 mm): Pad 1 [GND] of X16 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen Clearance' clearance 0.1500 mm; actual 0.0000 mm)
+    ; warning
+    @(140.8 mm, 109.9 mm): Rectangle of X16 on F.Silkscreen
+    @(141.55 mm, 111.42 mm): Pad 2 [GND] of X16 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(131.4 mm, 95.8 mm): Rectangle of X5 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(126.7 mm, 100.5 mm): Rectangle of X2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.8 mm, 100.5 mm): Rectangle of X14 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(131.4 mm, 100.5 mm): Rectangle of X6 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(126.7 mm, 95.8 mm): Rectangle of X1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(126.7 mm, 105.2 mm): Rectangle of X3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(136.1 mm, 105.2 mm): Rectangle of X11 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.8 mm, 105.2 mm): Rectangle of X15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.8 mm, 109.9 mm): Rectangle of X16 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(136.1 mm, 100.5 mm): Rectangle of X10 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.8 mm, 95.8 mm): Rectangle of X13 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(126.7 mm, 109.9 mm): Rectangle of X4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(131.4 mm, 109.9 mm): Rectangle of X8 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(131.4 mm, 105.2 mm): Rectangle of X7 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(136.1 mm, 109.9 mm): Rectangle of X12 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(136.1 mm, 95.8 mm): Rectangle of X9 on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(127.326 mm, 104.54 mm): PCB text 'X3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(127.326 mm, 104.54 mm): PCB text 'X3' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(127.326 mm, 109.24 mm): PCB text 'X4' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(127.326 mm, 109.24 mm): PCB text 'X4' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(127.391 mm, 98.068 mm): PCB text 'X1' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(127.391 mm, 98.068 mm): PCB text 'X1' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(127.451 mm, 99.818 mm): PCB text 'X2' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(127.451 mm, 99.818 mm): PCB text 'X2' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(124.345 mm, 96.557 mm): PCB text 'RX1' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(124.345 mm, 96.557 mm): PCB text 'RX1' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(124.703 mm, 92.306 mm): PCB text 'RX2' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(124.703 mm, 92.306 mm): PCB text 'RX2' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(142.708 mm, 92.337 mm): PCB text 'RX3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(142.708 mm, 92.337 mm): PCB text 'RX3' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(143.145 mm, 96.578 mm): PCB text 'RX4' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(143.145 mm, 96.578 mm): PCB text 'RX4' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(125.154 mm, 113.627 mm): PCB text 'TX1' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(125.154 mm, 113.627 mm): PCB text 'TX1' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(131.94975 mm, 113.87 mm): PCB text 'TX2' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(131.94975 mm, 113.87 mm): PCB text 'TX2' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(135.3695 mm, 113.87 mm): PCB text 'TX3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(135.3695 mm, 113.87 mm): PCB text 'TX3' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(142.209 mm, 113.87 mm): PCB text 'TX4' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(142.209 mm, 113.87 mm): PCB text 'TX4' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(128.53 mm, 113.91762 mm): PCB text 'VDD' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(128.53 mm, 113.91762 mm): PCB text 'VDD' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1250 mm)
+    ; warning
+    @(138.78925 mm, 113.965239 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(138.78925 mm, 113.965239 mm): PCB text 'GND' on F.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(130.051 mm, 92.521 mm): PCB text 'GND' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(130.051 mm, 92.521 mm): PCB text 'GND' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(131.01 mm, 92.524 mm): PCB text 'RX1' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(131.01 mm, 92.524 mm): PCB text 'RX1' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(132.034 mm, 92.535 mm): PCB text 'TX1' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(132.034 mm, 92.535 mm): PCB text 'TX1' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(133.03 mm, 92.541 mm): PCB text 'RX2' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(133.03 mm, 92.541 mm): PCB text 'RX2' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(134.029 mm, 92.575 mm): PCB text 'TX2' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(134.029 mm, 92.575 mm): PCB text 'TX2' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(135.051 mm, 92.192 mm): PCB text 'RX3' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(135.051 mm, 92.192 mm): PCB text 'RX3' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(136.044 mm, 92.383 mm): PCB text 'TX3' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(136.044 mm, 92.383 mm): PCB text 'TX3' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(137.044 mm, 92.541 mm): PCB text 'RX4' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(137.044 mm, 92.541 mm): PCB text 'RX4' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(138.045 mm, 92.54 mm): PCB text 'TX4' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(138.045 mm, 92.54 mm): PCB text 'TX4' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(139.032 mm, 92.451 mm): PCB text 'VDD' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(139.032 mm, 92.451 mm): PCB text 'VDD' on B.Silkscreen
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(131.91 mm, 98.07 mm): Reference field of X5
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(131.91 mm, 98.07 mm): Reference field of X5
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(141.309 mm, 99.838 mm): Reference field of X14
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(141.309 mm, 99.838 mm): Reference field of X14
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.6500 mm)
+    ; warning
+    @(140.712 mm, 92.9 mm): Reference field of J2
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(132.103 mm, 99.81 mm): Reference field of X6
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(132.103 mm, 99.81 mm): Reference field of X6
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(136.726 mm, 104.54 mm): Reference field of X11
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(136.726 mm, 104.54 mm): Reference field of X11
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(141.226 mm, 104.54 mm): Reference field of X15
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(141.226 mm, 104.54 mm): Reference field of X15
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(141.226 mm, 109.24 mm): Reference field of X16
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(141.226 mm, 109.24 mm): Reference field of X16
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(136.521 mm, 99.731 mm): Reference field of X10
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(136.521 mm, 99.731 mm): Reference field of X10
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(141.238 mm, 98.098 mm): Reference field of X13
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(141.238 mm, 98.098 mm): Reference field of X13
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(132.026 mm, 109.24 mm): Reference field of X8
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(132.026 mm, 109.24 mm): Reference field of X8
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(132.026 mm, 104.54 mm): Reference field of X7
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(132.026 mm, 104.54 mm): Reference field of X7
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(136.726 mm, 109.24 mm): Reference field of X12
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(136.726 mm, 109.24 mm): Reference field of X12
+[text_thickness]: Text thickness out of range (rule 'Minimum Silkscreen Text' min thickness 0.1500 mm; actual 0.1000 mm)
+    ; warning
+    @(136.52 mm, 98.15 mm): Reference field of X9
+[text_height]: Text height out of range (rule 'Minimum Silkscreen Text' min height 1.0000 mm; actual 0.5000 mm)
+    ; warning
+    @(136.52 mm, 98.15 mm): Reference field of X9
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(132.15 mm, 96.55 mm): Footprint X5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(127.45 mm, 101.25 mm): Footprint X2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(141.55 mm, 101.25 mm): Footprint X14
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(134.51 mm, 93.01 mm): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(132.15 mm, 101.25 mm): Footprint X6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(127.45 mm, 96.55 mm): Footprint X1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(127.45 mm, 105.95 mm): Footprint X3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(136.85 mm, 105.95 mm): Footprint X11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(141.55 mm, 105.95 mm): Footprint X15
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(141.55 mm, 110.65 mm): Footprint X16
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(136.85 mm, 101.25 mm): Footprint X10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(141.55 mm, 96.55 mm): Footprint X13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(127.45 mm, 110.65 mm): Footprint X4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(132.15 mm, 110.65 mm): Footprint X8
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(132.15 mm, 105.95 mm): Footprint X7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(136.85 mm, 110.65 mm): Footprint X12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(136.85 mm, 96.55 mm): Footprint X9
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(130.15 mm, 96.712 mm): Footprint CC_2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(125.45 mm, 110.8 mm): Footprint CC_13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(134.85 mm, 101.412 mm): Footprint CC_7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(139.55 mm, 101.412 mm): Footprint CC_8
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(130.15 mm, 101.412 mm): Footprint CC_6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(139.55 mm, 110.812 mm): Footprint CC_16
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(134.85 mm, 96.712 mm): Footprint CC_3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(134.85 mm, 106.112 mm): Footprint CC_11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(125.45 mm, 96.712 mm): Footprint CC_1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(139.55 mm, 106.112 mm): Footprint CC_12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(125.45 mm, 101.412 mm): Footprint CC_5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(130.15 mm, 110.812 mm): Footprint CC_14
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(130.15 mm, 106.112 mm): Footprint CC_10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(139.55 mm, 96.712 mm): Footprint CC_4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(134.85 mm, 110.812 mm): Footprint CC_15
+[lib_footprint_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(125.45 mm, 106.112 mm): Footprint CC_9
+[holes_co_located]: Drilled holes co-located
+    ; warning
+    @(137.849 mm, 96.047 mm): Via [/Sensor Group/RX3] on F.Cu - B.Cu
+    @(137.849 mm, 96.047 mm): Via [/Sensor Group/RX3] on F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

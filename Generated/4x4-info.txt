@@ -1,0 +1,228 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+KiBot installation checker
+
+Core:
+Linux: 6.17.0.35 (Linux xela-expo 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64 x86_64 x86_64 GNU/Linux)
+  /usr/bin/uname
+Python: 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]
+  /usr/lib/python3.12/os.py
+  /usr/bin/python3
+KiCad: 10.0.4-10.0.4~ubuntu24.04.1
+  /usr/lib/python3/dist-packages/pcbnew.py
+  /usr/bin/kicad
+Kibot: 1.9.0
+  /usr/lib/python3/dist-packages/kibot/__main__.py
+  /usr/bin/kibot
+
+Modules:
+Colorama: 0.4.6
+  /usr/lib/python3/dist-packages/colorama/__init__.py
+LXML: 5.2.1
+  /usr/lib/python3/dist-packages/lxml/__init__.py
+Lark: 1.1.9
+  /usr/lib/python3/dist-packages/lark/__init__.py
+PyYAML: 6.0.1
+  /usr/lib/python3/dist-packages/yaml/__init__.py
+QRCodeGen: Ok
+  /usr/lib/python3/dist-packages/qrcodegen.py
+ReportLab: Not available
+Requests: 2.31.0
+  /usr/lib/python3/dist-packages/requests/__init__.py
+XLSXWriter: 3.1.9
+  /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
+Xvfbwrapper: Ok
+  /home/xela/.local/local/lib/python3.12/dist-packages/xvfbwrapper.py
+ZStd: Not available
+markdown2: 2.4.11
+  /usr/lib/python3/dist-packages/markdown2.py
+numpy: 1.26.4
+  /usr/lib/python3/dist-packages/numpy/__init__.py
+
+Tools:
+Bash: 5.2.21 (GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu))
+  /usr/bin/bash
+Blender: Not available
+  /usr/bin/bash
+Curl: 8.5.0 (curl 8.5.0 (x86_64-pc-linux-gnu) libcurl/8.5.0 OpenSSL/3.0.13 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.10)
+  /usr/bin/curl
+Ghostscript: 10.2.1 (10.02.1)
+  /usr/bin/gs
+Git: 2.43.0 (git version 2.43.0)
+  /usr/bin/git
+ImageMagick: 6.9.12.98 (Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org)
+  /usr/bin/convert
+Interactive HTML BoM: 2.11.2 (v2.11.2)
+  /usr/bin/python3
+KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
+  /usr/bin/KiBOM_CLI.py
+KiCad Automation tools (kiauto): 2.3.9 (pcbnew_do 2.3.9 - Copyright 2018-2026, INTI/Productize SPRL - License: Apache)
+  /usr/bin/pcbnew_do
+KiCad PCB/SCH Diff (kidiff): Not available
+  /usr/bin/pcbnew_do
+KiCost: 1.1.20 (KiCost v1.1.20)
+  /usr/bin/kicost
+KiKit: 1.8.0.1 (kikit, version 1.8.0-1)
+  /usr/bin/kikit
+OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
+  /usr/bin/openscad
+Pandoc: Not available
+  /usr/bin/openscad
+RAR: 7.0.0 (RAR 7.00   Copyright (c) 1993-2024 Alexander Roshal   26 Feb 2024)
+  /usr/bin/rar
+RSVG tools: 2.58.0 (rsvg-convert version 2.58.0)
+  /usr/bin/rsvg-convert
+Xvfb: Ok (xvfb-run)
+  /usr/bin/rsvg-convert
+
+* Blender not installed or too old
+  Install the `blender` package, i.e.: `sudo apt-get install blender`
+  - Mandatory for `blender_export`
+
+* KiCad PCB/SCH Diff not installed or too old
+  Visit: https://github.com/INTI-CMNB/KiDiff
+  Download it from: https://github.com/INTI-CMNB/KiDiff/releases
+  This tool might be automatically downloaded by KiBot.
+  - Mandatory for: `diff`, `kiri`
+
+* Pandoc not installed or too old
+  Install the `pandoc` package, i.e.: `sudo apt-get install pandoc`
+  You should also install the following packages: texlive, texlive-latex-base, texlive-latex-recommended
+  In CI/CD environments: the `kicad_auto_test` docker image contains it.
+  - Optional to create PDF/ODF/DOCX files for `report`
+
+* Python module `ReportLab` not installed, too old or incompatible
+  Install the `python3-reportlab` package, i.e.: `sudo apt-get install python3-reportlab`
+  - Optional to create a PDF with BoM labels for `bom_labels`
+
+* Python module `ZStd` not installed, too old or incompatible
+  Install the `python3-zstd` package, i.e.: `sudo apt-get install python3-zstd`
+  - Optional to copy embedded files from the schematic to the KiCad cache for general use
+
+Environment:
+AMENT_PREFIX_PATH
+CMAKE_PREFIX_PATH
+COLCON_PREFIX_PATH
+COLORTERM
+DBUS_SESSION_BUS_ADDRESS
+DEBUGINFOD_URLS
+DESKTOP_SESSION
+DISPLAY
+GDMSESSION
+GIO_LAUNCHED_DESKTOP_FILE_PID
+GIT_TERMINAL_PROMPT
+GNOME_DESKTOP_SESSION_ID
+GNOME_KEYRING_CONTROL
+GNOME_SETUP_DISPLAY
+GNOME_SHELL_SESSION_MODE
+GSM_SKIP_SSH_AGENT_WORKAROUND
+GTK_MODULES
+HOME
+IM_CONFIG_PHASE
+INTERACTIVE_HTML_BOM_NO_DISPLAY
+INVOCATION_ID
+JOURNAL_STREAM
+KICAD10_3DMODEL_DIR
+KICAD10_3RD_PARTY
+KICAD10_FOOTPRINT_DIR
+KICAD10_SYMBOL_DIR
+KICAD10_TEMPLATE_DIR
+KICAD6_3DMODEL_DIR
+KICAD6_3RD_PARTY
+KICAD6_FOOTPRINT_DIR
+KICAD6_SYMBOL_DIR
+KICAD6_TEMPLATE_DIR
+KICAD7_3DMODEL_DIR
+KICAD7_3RD_PARTY
+KICAD7_FOOTPRINT_DIR
+KICAD7_SYMBOL_DIR
+KICAD7_TEMPLATE_DIR
+KICAD8_3DMODEL_DIR
+KICAD8_3RD_PARTY
+KICAD8_FOOTPRINT_DIR
+KICAD8_SYMBOL_DIR
+KICAD8_TEMPLATE_DIR
+KICAD9_3DMODEL_DIR
+KICAD9_3RD_PARTY
+KICAD9_FOOTPRINT_DIR
+KICAD9_SYMBOL_DIR
+KICAD9_TEMPLATE_DIR
+KICAD_3RD_PARTY
+KICAD_USER_TEMPLATE_DIR
+KIPRJMOD
+KISYS3DMOD
+KISYSMOD
+LANG
+LANGUAGE
+LC_ADDRESS
+LC_ALL
+LC_IDENTIFICATION
+LC_MEASUREMENT
+LC_MONETARY
+LC_NAME
+LC_NUMERIC
+LC_PAPER
+LC_TELEPHONE
+LC_TIME
+LD_LIBRARY_PATH
+LESSCLOSE
+LESSOPEN
+LOGNAME
+LS_COLORS
+MANAGERPID
+MEMORY_PRESSURE_WATCH
+MEMORY_PRESSURE_WRITE
+OLDPWD
+PAPERSIZE
+PATH
+PWD
+PYTHONPATH
+QTWEBENGINE_DICTIONARIES_PATH
+QT_ACCESSIBILITY
+QT_IM_MODULE
+ROS_AUTOMATIC_DISCOVERY_RANGE
+ROS_DISTRO
+ROS_DOMAIN_ID
+ROS_PYTHON_VERSION
+ROS_VERSION
+SESSION_MANAGER
+SHELL
+SHLVL
+SSH_AUTH_SOCK
+SYSTEMD_EXEC_PID
+TERM
+TERMINATOR_DBUS_NAME
+TERMINATOR_DBUS_PATH
+TERMINATOR_UUID
+USER
+USERNAME
+VTE_VERSION
+WAYLAND_DISPLAY
+XAUTHORITY
+XDG_CONFIG_DIRS
+XDG_CURRENT_DESKTOP
+XDG_DATA_DIRS
+XDG_MENU_PREFIX
+XDG_RUNTIME_DIR
+XDG_SESSION_CLASS
+XDG_SESSION_DESKTOP
+XDG_SESSION_TYPE
+XMODIFIERS
+_
+
+KiAuto:
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+This is KiAuto v2.3.9
+Installed at: /usr/bin/pcbnew_do
+Using kiauto module from: /home/xela/.local/local/lib/python3.12/dist-packages/kiauto
+Interpreted by Python: /usr/bin/python3 (v3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0])
+Tools:
+- kicad: /usr/bin/kicad (v10.0.4-10.0.4~ubuntu24.04.1)
+- xdotool: /usr/bin/xdotool
+- recordmydesktop: /usr/bin/recordmydesktop
+- xsltproc: /usr/bin/xsltproc
+- xclip: /usr/bin/xclip
+- convert: /usr/bin/convert

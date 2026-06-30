@@ -1,0 +1,781 @@
+ERC report (2026-06-30T15:28:40, Encoding UTF8)
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.6256 mm, 0.9271 mm): Symbol J2 [Amphenol-ICC_Minitek-08_10P]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.6256 mm, 0.9271 mm): Symbol J2 [Amphenol-ICC_Minitek-08_10P]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.74168 mm, 0.9271 mm): Symbol X5 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.74168 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.74168 mm, 1.2827 mm): Symbol X9 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.74168 mm, 1.63576 mm): Symbol X13 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.76708 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.76708 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.7747 mm, 0.38862 mm): Symbol #PWR08 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.7747 mm, 0.38862 mm): Vertical Wire, length 0.0051 mm
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.7747 mm, 0.4826 mm): Symbol X1 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.7747 mm, 0.4826 mm): Symbol X1 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 0.74422 mm): Symbol #PWR025 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 0.74422 mm): Vertical Wire, length 0.0051 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 0.7493 mm): Symbol CC_5 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.77978 mm, 0.8382 mm): Symbol X5 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.77978 mm, 0.8382 mm): Symbol X5 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 1.09982 mm): Symbol #PWR037 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 1.09982 mm): Vertical Wire, length 0.0051 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 1.1049 mm): Symbol CC_9 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.77978 mm, 1.1938 mm): Symbol X9 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.77978 mm, 1.1938 mm): Symbol X9 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 1.45034 mm): Vertical Wire, length 0.0076 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 1.45034 mm): Symbol #PWR049 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.77978 mm, 1.45796 mm): Symbol CC_13 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.77978 mm, 1.54686 mm): Symbol X13 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.77978 mm, 1.54686 mm): Symbol X13 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.79248 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.79248 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.79248 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.79248 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.8001 mm, 0.3937 mm): Symbol CC_1 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.8001 mm, 0.3937 mm): Symbol CC_1 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.80518 mm, 0.7493 mm): Symbol CC_5 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.80518 mm, 0.7493 mm): Symbol CC_5 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.80518 mm, 1.1049 mm): Symbol CC_9 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.80518 mm, 1.1049 mm): Symbol CC_9 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.80518 mm, 1.45796 mm): Symbol CC_13 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.80518 mm, 1.45796 mm): Symbol CC_13 [C0402-GRM152R61A104KE19D]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.81788 mm, 0.9271 mm): Symbol #PWR024 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.81788 mm, 1.2827 mm): Symbol #PWR036 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.81788 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.81788 mm, 1.63576 mm): Symbol #PWR048 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.81788 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.85598 mm, 0.7493 mm): Symbol #PWR017 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.85598 mm, 1.1049 mm): Symbol #PWR029 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.85598 mm, 1.45796 mm): Symbol #PWR041 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.91948 mm, 0.9271 mm): Symbol X6 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.91948 mm, 1.2827 mm): Symbol X10 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.91948 mm, 1.63576 mm): Symbol X14 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.94488 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.94488 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.94488 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.9525 mm, 0.38862 mm): Symbol #PWR07 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.9525 mm, 0.38862 mm): Vertical Wire, length 0.0051 mm
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.9525 mm, 0.4826 mm): Symbol X2 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.9525 mm, 0.4826 mm): Symbol X2 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 0.74422 mm): Symbol #PWR022 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 0.74422 mm): Vertical Wire, length 0.0051 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 0.7493 mm): Symbol CC_6 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.95758 mm, 0.8382 mm): Symbol X6 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.95758 mm, 0.8382 mm): Symbol X6 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 1.09982 mm): Vertical Wire, length 0.0051 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 1.09982 mm): Symbol #PWR034 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 1.1049 mm): Symbol CC_10 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.95758 mm, 1.1938 mm): Symbol X10 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.95758 mm, 1.1938 mm): Symbol X10 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 1.45034 mm): Vertical Wire, length 0.0076 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 1.45034 mm): Symbol #PWR046 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.95758 mm, 1.45796 mm): Symbol CC_14 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.95758 mm, 1.54686 mm): Symbol X14 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.95758 mm, 1.54686 mm): Symbol X14 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.97028 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.97028 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.97028 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.9779 mm, 0.3937 mm): Symbol CC_2 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.9779 mm, 0.3937 mm): Symbol CC_2 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.98298 mm, 0.7493 mm): Symbol CC_6 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.98298 mm, 0.7493 mm): Symbol CC_6 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.98298 mm, 1.1049 mm): Symbol CC_10 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.98298 mm, 1.1049 mm): Symbol CC_10 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(0.98298 mm, 1.45796 mm): Symbol CC_14 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(0.98298 mm, 1.45796 mm): Symbol CC_14 [C0402-GRM152R61A104KE19D]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.99568 mm, 0.9271 mm): Symbol #PWR021 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.99568 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.99568 mm, 1.2827 mm): Symbol #PWR033 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.99568 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.99568 mm, 1.63576 mm): Symbol #PWR045 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(0.99568 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.03378 mm, 0.7493 mm): Symbol #PWR020 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.03378 mm, 1.1049 mm): Symbol #PWR032 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.03378 mm, 1.45796 mm): Symbol #PWR044 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.09728 mm, 0.9271 mm): Symbol X7 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.09728 mm, 1.2827 mm): Symbol X11 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.09728 mm, 1.63576 mm): Symbol X15 Pin EP [NC, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.12268 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.12268 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.12268 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.1303 mm, 0.38862 mm): Symbol #PWR06 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.1303 mm, 0.38862 mm): Vertical Wire, length 0.0051 mm
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.1303 mm, 0.4826 mm): Symbol X3 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.1303 mm, 0.4826 mm): Symbol X3 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 0.74422 mm): Symbol #PWR019 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 0.74422 mm): Vertical Wire, length 0.0051 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 0.7493 mm): Symbol CC_7 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.13538 mm, 0.8382 mm): Symbol X7 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.13538 mm, 0.8382 mm): Symbol X7 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 1.09982 mm): Symbol #PWR031 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 1.09982 mm): Vertical Wire, length 0.0051 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 1.1049 mm): Symbol CC_11 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.13538 mm, 1.1938 mm): Symbol X11 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.13538 mm, 1.1938 mm): Symbol X11 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 1.45034 mm): Vertical Wire, length 0.0076 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 1.45034 mm): Symbol #PWR043 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.13538 mm, 1.45796 mm): Symbol CC_15 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.13538 mm, 1.54686 mm): Symbol X15 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.13538 mm, 1.54686 mm): Symbol X15 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.14808 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.14808 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.14808 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.1557 mm, 0.3937 mm): Symbol CC_3 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.1557 mm, 0.3937 mm): Symbol CC_3 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.16078 mm, 0.7493 mm): Symbol CC_7 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.16078 mm, 0.7493 mm): Symbol CC_7 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.16078 mm, 1.1049 mm): Symbol CC_11 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.16078 mm, 1.1049 mm): Symbol CC_11 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.16078 mm, 1.45796 mm): Symbol CC_15 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.16078 mm, 1.45796 mm): Symbol CC_15 [C0402-GRM152R61A104KE19D]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.17348 mm, 0.9271 mm): Symbol #PWR018 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.17348 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.17348 mm, 1.2827 mm): Symbol #PWR030 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.17348 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.17348 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.17348 mm, 1.63576 mm): Symbol #PWR042 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.21158 mm, 0.7493 mm): Symbol #PWR023 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.21158 mm, 1.1049 mm): Symbol #PWR035 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.21158 mm, 1.45796 mm): Symbol #PWR047 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.22428 mm, 0.8382 mm): Symbol X8 Pin 4 [TX, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.22428 mm, 1.1938 mm): Symbol X12 Pin 4 [TX, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.22428 mm, 1.54686 mm): Symbol X16 Pin 4 [TX, Input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.30048 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.30048 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.30048 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.3081 mm, 0.38862 mm): Symbol #PWR05 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.3081 mm, 0.38862 mm): Vertical Wire, length 0.0051 mm
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.3081 mm, 0.4826 mm): Symbol X4 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.3081 mm, 0.4826 mm): Symbol X4 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 0.74422 mm): Vertical Wire, length 0.0051 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 0.74422 mm): Symbol #PWR016 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 0.7493 mm): Symbol CC_8 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.31318 mm, 0.8382 mm): Symbol X8 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.31318 mm, 0.8382 mm): Symbol X8 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 1.09982 mm): Vertical Wire, length 0.0051 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 1.09982 mm): Symbol #PWR028 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 1.1049 mm): Symbol CC_12 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.31318 mm, 1.1938 mm): Symbol X12 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.31318 mm, 1.1938 mm): Symbol X12 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 1.45034 mm): Symbol #PWR040 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 1.45034 mm): Vertical Wire, length 0.0076 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.31318 mm, 1.45796 mm): Symbol CC_16 Pin 1 [Passive, Line]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.31318 mm, 1.54686 mm): Symbol X16 [TLI493D-x4D7_R1103_V3]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.31318 mm, 1.54686 mm): Symbol X16 [TLI493D-x4D7_R1103_V3]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.32588 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.32588 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.32588 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.3335 mm, 0.3937 mm): Symbol CC_4 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.3335 mm, 0.3937 mm): Symbol CC_4 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.33858 mm, 0.7493 mm): Symbol CC_8 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.33858 mm, 0.7493 mm): Symbol CC_8 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.33858 mm, 1.1049 mm): Symbol CC_12 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.33858 mm, 1.1049 mm): Symbol CC_12 [C0402-GRM152R61A104KE19D]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'XELA-Robotics'
+    ; warning
+    @(1.33858 mm, 1.45796 mm): Symbol CC_16 [C0402-GRM152R61A104KE19D]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XELA-Robotics'
+    ; warning
+    @(1.33858 mm, 1.45796 mm): Symbol CC_16 [C0402-GRM152R61A104KE19D]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.35128 mm, 0.9271 mm): Symbol #PWR015 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.35128 mm, 0.9271 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.35128 mm, 1.2827 mm): Symbol #PWR027 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.35128 mm, 1.2827 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.35128 mm, 1.63576 mm): Horizontal Wire, length 0.0254 mm
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.35128 mm, 1.63576 mm): Symbol #PWR039 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.38938 mm, 0.7493 mm): Symbol #PWR026 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.38938 mm, 1.1049 mm): Symbol #PWR038 Pin 1 [Power input, Line]
+
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1.38938 mm, 1.45796 mm): Symbol #PWR050 Pin 1 [Power input, Line]
+
+***** Sheet /Sensor Group/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(0.8636 mm, 0.4826 mm): Symbol X1 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(0.86868 mm, 0.8382 mm): Symbol X5 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(0.86868 mm, 1.1938 mm): Symbol X9 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(0.86868 mm, 1.54686 mm): Symbol X13 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(1.0414 mm, 0.4826 mm): Symbol X2 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(1.04648 mm, 0.8382 mm): Symbol X6 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(1.04648 mm, 1.1938 mm): Symbol X10 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(1.04648 mm, 1.54686 mm): Symbol X14 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(1.2192 mm, 0.4826 mm): Symbol X3 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(1.22428 mm, 0.8382 mm): Symbol X7 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(1.22428 mm, 1.1938 mm): Symbol X11 Pin 3 [RX, Input, Line]
+
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(1.22428 mm, 1.54686 mm): Symbol X15 Pin 3 [RX, Input, Line]
+
+ ** ERC messages: 194  Errors 12  Warnings 182
